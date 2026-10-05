@@ -47,3 +47,13 @@ msgstr "Виберіть замовлення закупівлі або стар
 #: model:ir.model.fields,help:purchase_stock_picking_return_invoicing.field_purchase_order_line__qty_returned
 msgid "This is ONLY the returned quantity that is refundable."
 msgstr "Це ЛИШЕ повернена кількість, що підлягає відшкодуванню."
+
+#. module: purchase_stock_picking_return_invoicing
+#. odoo-python
+#: code:addons/purchase_stock_picking_return_invoicing/models/purchase_order.py:0
+msgid ""
+"There is no invoiceable line. If a product has a control policy based on "
+"received quantity, please make sure that a quantity has been received."
+msgstr ""
+"Немає рядків для виставлення рахунку. Якщо політика контролю товару "
+"базується на отриманій кількості, переконайтеся, що кількість отримано."

@@ -74,3 +74,17 @@ msgstr "Останнє оновлення"
 #: model:ir.model,name:account_invoice_check_picking_date.model_invoice_picking_date_check_wiz
 msgid "Invoice and picking date check wizard"
 msgstr "Майстер перевірки дат рахунка та переміщення"
+
+#. module: account_invoice_check_picking_date
+#. odoo-python
+#: code:addons/account_invoice_check_picking_date/models/account_move.py:0
+msgid ""
+"Accounting date: %(accounting_date)s\n"
+"First stock move: %(min_date)s   Last stock move: %(max_date)s\n"
+"\n"
+"If dates are right and you have manager permissions you can use special action to post this invoice."
+msgstr ""
+"Дата бухгалтерського обліку: %(accounting_date)s\n"
+"Перше складське переміщення: %(min_date)s   Останнє складське переміщення: %(max_date)s\n"
+"\n"
+"Якщо дати правильні й у вас є права менеджера, можна скористатися спеціальною дією для проведення цього рахунка."

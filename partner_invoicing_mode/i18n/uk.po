@@ -87,3 +87,15 @@ msgid ""
 msgstr ""
 "Позначте або зніміть позначку залежно від того, чи потрібно групувати це "
 "замовлення з іншими під час періодичного виставлення рахунків."
+
+#. module: partner_invoicing_mode
+#. odoo-python
+#: code:addons/partner_invoicing_mode/models/sale_order.py:0
+msgid "Generate invoices by partner"
+msgstr "Генерувати рахунки за партнером"
+
+#. module: partner_invoicing_mode
+#. odoo-python
+#: code:addons/partner_invoicing_mode/models/sale_order.py:0
+msgid "Validate %s invoice"
+msgstr "Підтвердити рахунок %s"

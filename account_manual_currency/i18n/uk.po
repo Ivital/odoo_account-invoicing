@@ -73,3 +73,29 @@ msgid ""
 msgstr ""
 "Установіть новий валютний курс для застосування до рахунку.\n"
 "Цей курс використовуватиметься для перерахунку сум між валютою замовлення на закупівлю та останньою валютою"
+
+#. module: account_manual_currency
+#. odoo-python
+#: code:addons/account_manual_currency/models/account_move.py:0
+msgid "%(company_currency_name)s per 1 %(rate_currency_name)s"
+msgstr "%(company_currency_name)s за 1 %(rate_currency_name)s"
+
+#. module: account_manual_currency
+#. odoo-python
+#: code:addons/account_manual_currency/models/account_move.py:0
+msgid "%(rate_currency_name)s per 1 %(company_currency_name)s"
+msgstr "%(rate_currency_name)s за 1 %(company_currency_name)s"
+
+#. module: account_manual_currency
+#. odoo-python
+#: code:addons/account_manual_currency/models/account_move.py:0
+msgid "Rate currency can refresh state draft only."
+msgstr "Курс валюти можна оновлювати лише в стані чернетки."
+
+#. module: account_manual_currency
+#. odoo-python
+#: code:addons/account_manual_currency/wizard/account_payment_register.py:0
+msgid ""
+"You can only register payments for moves with the same manual currency."
+msgstr ""
+"Реєструвати платежі можна лише для переміщень з однаковою ручною валютою."

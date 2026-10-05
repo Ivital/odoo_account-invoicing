@@ -248,3 +248,15 @@ msgstr "Рахунок за складом під час відвантажен�
 #: model:ir.model,name:stock_picking_invoicing.model_stock_invoice_state_mixin
 msgid "Stock Invoice State Mixin"
 msgstr "Міксин стану рахунка складу"
+
+#. module: stock_picking_invoicing
+#. odoo-python
+#: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py:0
+msgid "All pickings are not related to your company!"
+msgstr "Не всі переміщення належать вашій компанії!"
+
+#. module: stock_picking_invoicing
+#. odoo-python
+#: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py:0
+msgid "No invoice created!"
+msgstr "Рахунок не створено!"

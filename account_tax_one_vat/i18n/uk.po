@@ -49,3 +49,27 @@ msgstr "Лише один податок ПДВ"
 msgid "Abstract the methods needed to ensure only one VAT tax is selected."
 msgstr ""
 "Абстрагує методи, потрібні для гарантії вибору лише одного податку ПДВ."
+
+#. module: account_tax_one_vat
+#. odoo-python
+#: code:addons/account_tax_one_vat/models/account_move.py:0
+msgid "Invoice has a line %s with more than one vat tax"
+msgstr "Рахунок містить рядок %s із більш ніж одним податком ПДВ"
+
+#. module: account_tax_one_vat
+#. odoo-python
+#: code:addons/account_tax_one_vat/models/one_vat_mixin.py:0
+msgid "More than one VAT tax selected!"
+msgstr "Вибрано більше одного податку ПДВ!"
+
+#. module: account_tax_one_vat
+#. odoo-python
+#: code:addons/account_tax_one_vat/models/one_vat_mixin.py:0
+msgid "Multiple taxes of type VAT are selected. Only one is allowed."
+msgstr "Вибрано кілька податків типу ПДВ. Дозволено лише один."
+
+#. module: account_tax_one_vat
+#. odoo-python
+#: code:addons/account_tax_one_vat/models/one_vat_mixin.py:0
+msgid "You selected more than one tax of type VAT."
+msgstr "Вибрано більше одного податку типу ПДВ."

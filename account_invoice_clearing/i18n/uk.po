@@ -398,3 +398,39 @@ msgstr "Префікс для назв рядків проводок, створ
 msgid ""
 "The residual amount on a journal item expressed in the company currency."
 msgstr "Залишкова сума за рядком журналу у валюті компанії."
+
+#. module: account_invoice_clearing
+#. odoo-python
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
+msgid "Amount to clear cannot be greater than residual amount."
+msgstr "Сума для очищення не може перевищувати залишкову суму."
+
+#. module: account_invoice_clearing
+#. odoo-python
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
+msgid "Invoices must be from the same commercial partner."
+msgstr "Рахунки мають бути від одного комерційного партнера."
+
+#. module: account_invoice_clearing
+#. odoo-python
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
+msgid "Invoices must be of the same type."
+msgstr "Рахунки мають бути одного типу."
+
+#. module: account_invoice_clearing
+#. odoo-python
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
+msgid "Invoices must belong to the same company."
+msgstr "Рахунки мають належати одній компанії."
+
+#. module: account_invoice_clearing
+#. odoo-python
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
+msgid "Preview of the clearing move related to %s"
+msgstr "Попередній перегляд клірингового проведення, пов’язаного з %s"
+
+#. module: account_invoice_clearing
+#. odoo-python
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
+msgid "Resulting Clearing Move"
+msgstr "Підсумкове проведення погашення"

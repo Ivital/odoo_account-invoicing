@@ -30,3 +30,9 @@ msgstr "Строк оплати за умовою платежу"
 #: model:res.groups,name:account_invoice_date_due.allow_to_change_due_date
 msgid "Allow to change due date"
 msgstr "Дозволити зміну терміну оплати"
+
+#. module: account_invoice_date_due
+#. odoo-python
+#: code:addons/account_invoice_date_due/models/account_move.py:0
+msgid "You are not allowed to change the due date."
+msgstr "Вам не дозволено змінювати дату платежу."

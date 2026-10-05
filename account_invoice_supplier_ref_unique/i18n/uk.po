@@ -47,3 +47,13 @@ msgid ""
 msgstr ""
 "Позначте, якщо потрібно забезпечити унікальність номера рахунка "
 "постачальника"
+
+#. module: account_invoice_supplier_ref_unique
+#. odoo-python
+#: code:addons/account_invoice_supplier_ref_unique/models/account_move.py:0
+msgid ""
+"The invoice/refund with supplier invoice number %(number)s already exists in"
+" Odoo under the number %(same)s for supplier %(supplier)s."
+msgstr ""
+"Рахунок/повернення з номером рахунку постачальника %(number)s уже існує в "
+"Odoo під номером %(same)s для постачальника %(supplier)s."

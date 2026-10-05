@@ -39,3 +39,9 @@ msgstr "Оновити ціни"
 #: model_terms:ir.ui.view,arch_db:account_invoice_pricelist.view_account_move_customer_form
 msgid "Update price in lines from the pricelist"
 msgstr "Оновити ціну в рядках із прайс-листа"
+
+#. module: account_invoice_pricelist
+#. odoo-python
+#: code:addons/account_invoice_pricelist/models/account_move.py:0
+msgid "Pricelist and Invoice need to use the same currency."
+msgstr "Прайс-лист і рахунок мають використовувати одну валюту."

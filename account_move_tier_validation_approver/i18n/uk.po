@@ -55,3 +55,9 @@ msgid "Requires adding an approver before a vendor bill can be posted."
 msgstr ""
 "Вимагає додати погоджувача, перш ніж рахунок постачальника можна буде "
 "провести."
+
+#. module: account_move_tier_validation_approver
+#. odoo-python
+#: code:addons/account_move_tier_validation_approver/models/account_move.py:0
+msgid "It is mandatory to indicate a Responsible for Approval (in {})"
+msgstr "Обов’язково потрібно вказати відповідального за схвалення (у {})"

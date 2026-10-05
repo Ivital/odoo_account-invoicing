@@ -141,3 +141,15 @@ msgstr "Перевірка триває"
 #: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
 msgid "Validation Not Started"
 msgstr "Перевірку не розпочато"
+
+#. module: account_move_tier_validation
+#. odoo-python
+#: code:addons/account_move_tier_validation/models/account_move.py:0
+msgid "Bill"
+msgstr "Рахунок"
+
+#. module: account_move_tier_validation
+#. odoo-python
+#: code:addons/account_move_tier_validation/models/account_move.py:0
+msgid "Credit Note"
+msgstr "Кредит-нота"

@@ -31,3 +31,51 @@ msgid ""
 msgstr ""
 "Якщо позначено, цей журнал типово використовуватиметься для надходжень і "
 "лише для надходжень."
+
+#. module: account_receipt_journal
+#. odoo-python
+#: code:addons/account_receipt_journal/models/account_move.py:0
+msgid ""
+"Purchase Receipt must use a Receipt Journal because there is already a "
+"Receipt Journal for Purchases"
+msgstr ""
+"Квитанція закупівлі має використовувати журнал надходжень, оскільки журнал "
+"надходжень для закупівель уже існує"
+
+#. module: account_receipt_journal
+#. odoo-python
+#: code:addons/account_receipt_journal/models/account_chart_template.py:0
+msgid "Purchase Receipts Journal"
+msgstr "Журнал касових чеків закупівлі"
+
+#. module: account_receipt_journal
+#. odoo-python
+#: code:addons/account_receipt_journal/models/account_move.py:0
+msgid "Receipt Journal is restricted to Receipts"
+msgstr "Журнал надходжень обмежений операціями надходження"
+
+#. module: account_receipt_journal
+#. odoo-python
+#: code:addons/account_receipt_journal/models/account_move.py:0
+msgid ""
+"Sale Receipt must use a Receipt Journal because there is already a Receipt "
+"Journal for Sales"
+msgstr ""
+"Квитанція продажу має використовувати журнал надходжень, оскільки журнал "
+"надходжень для продажів уже існує"
+
+#. module: account_receipt_journal
+#. odoo-python
+#: code:addons/account_receipt_journal/models/account_chart_template.py:0
+msgid "Sale Receipts Journal"
+msgstr "Журнал касових чеків продажу"
+
+#. module: account_receipt_journal
+#. odoo-python
+#: code:addons/account_receipt_journal/models/account_journal.py:0
+msgid ""
+"The sequence of the journal '%s' must be higher than the sequence of the "
+"other journals of the same type."
+msgstr ""
+"Послідовність журналу «%s» має бути вищою за послідовність інших журналів "
+"того самого типу."

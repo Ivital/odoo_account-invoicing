@@ -258,7 +258,7 @@ msgstr "Оновити інформацію про постачальників"
 #. odoo-python
 #: code:addons/account_invoice_supplierinfo_update/models/account_move.py:0
 msgid "Update supplier informations of products"
-msgstr ""
+msgstr "Оновити інформацію про постачальників товарів"
 
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_wizard_update_invoice_supplierinfo_line__wizard_id

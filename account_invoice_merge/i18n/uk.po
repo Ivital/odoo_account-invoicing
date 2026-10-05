@@ -114,7 +114,7 @@ msgstr "Об'єднати рахунок контрагента"
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:0
 #, python-format
 msgid "Merge-able State (ex : %s)"
-msgstr ""
+msgstr "Стан, придатний для об’єднання (напр.: %s)"
 
 #. module: account_invoice_merge
 #: model_terms:ir.ui.view,arch_db:account_invoice_merge.view_invoice_merge
@@ -144,7 +144,7 @@ msgstr ""
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:0
 #, python-format
 msgid "Please select multiple invoices to merge in the list view."
-msgstr ""
+msgstr "Виберіть кілька рахунків для об’єднання в поданні списку."
 
 #~ msgid "or"
 #~ msgstr "або"

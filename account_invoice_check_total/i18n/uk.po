@@ -46,3 +46,15 @@ msgid ""
 msgstr ""
 "Якщо встановити цей прапорець, система перевірить, чи загальна обчислена "
 "сума збігається з контрольною сумою."
+
+#. module: account_invoice_check_total
+#. odoo-python
+#: code:addons/account_invoice_check_total/models/account_move.py:0
+msgid ""
+"Please verify the price of the invoice!\n"
+"The total amount (%(amount_total)s) does not match the Verification Total amount (%(check_total)s)!\n"
+"There is a difference of %(diff)s"
+msgstr ""
+"Перевірте ціну рахунка!\n"
+"Загальна сума (%(amount_total)s) не відповідає контрольній загальній сумі (%(check_total)s)!\n"
+"Різниця становить %(diff)s"

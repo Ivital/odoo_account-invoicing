@@ -548,3 +548,68 @@ msgstr "Документ(и), що створили рахунок."
 #: model:ir.model.fields,help:account_billing.field_account_billing__bill_type
 msgid "Type of invoice"
 msgstr "Тип рахунка"
+
+#. module: account_billing
+#. odoo-python
+#: code:addons/account_billing/models/account_billing.py:0
+msgid "Billing %s is cancelled"
+msgstr "Виставлення %s скасовано"
+
+#. module: account_billing
+#. odoo-python
+#: code:addons/account_billing/models/account_move.py:0
+msgid ""
+"Billing cannot be processed because some invoices are not in the 'Posted' or"
+" 'Paid' state already."
+msgstr ""
+"Виставлення рахунків неможливе, оскільки деякі рахунки ще не у стані "
+"«Проведено» або «Оплачено»."
+
+#. module: account_billing
+#. odoo-python
+#: code:addons/account_billing/models/account_billing.py:0
+msgid "Billing is billed."
+msgstr "Виставлення рахунку виконано."
+
+#. module: account_billing
+#. odoo-python
+#: code:addons/account_billing/models/account_billing.py:0
+msgid "Billing is reset to draft"
+msgstr "Виставлення повернуто в чернетку"
+
+#. module: account_billing
+#. odoo-python
+#: code:addons/account_billing/models/account_billing.py:0
+msgid "Invoice paid already."
+msgstr "Рахунок уже оплачено."
+
+#. module: account_billing
+#. odoo-python
+#: code:addons/account_billing/models/account_move.py:0
+msgid "Please select invoices with same currency"
+msgstr "Будь ласка, виберіть рахунки в одній валюті"
+
+#. module: account_billing
+#. odoo-python
+#: code:addons/account_billing/models/account_move.py:0
+msgid "Please select invoices with same partner"
+msgstr "Будь ласка, виберіть рахунки одного партнера"
+
+#. module: account_billing
+#. odoo-python
+#: code:addons/account_billing/models/account_billing.py:0
+msgid "Threshold Date cannot be later than the %s in lines"
+msgstr "Порогова дата не може бути пізнішою за %s у рядках"
+
+#. module: account_billing
+#. odoo-python
+#: code:addons/account_billing/models/account_move.py:0
+msgid "You cannot reset to draft an invoice that has been billed."
+msgstr ""
+"Не можна повернути до чернетки рахунок, за яким уже виставлено рахунок."
+
+#. module: account_billing
+#. odoo-python
+#: code:addons/account_billing/models/account_billing.py:0
+msgid "You need to add a line before validate."
+msgstr "Перед перевіркою потрібно додати рядок."

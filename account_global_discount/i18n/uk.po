@@ -169,3 +169,15 @@ msgstr "Сума зі знижкою"
 #: model_terms:ir.ui.view,arch_db:account_global_discount.view_move_form
 msgid "Untaxed Amount Before Disc."
 msgstr "Сума без податків до знижки"
+
+#. module: account_global_discount
+#. odoo-python
+#: code:addons/account_global_discount/models/account_move.py:0
+msgid "Incompatible taxes found for global discounts."
+msgstr "Знайдено несумісні податки для глобальних знижок."
+
+#. module: account_global_discount
+#. odoo-python
+#: code:addons/account_global_discount/models/account_move.py:0
+msgid "With global discounts, taxes in lines are required"
+msgstr "Для глобальних знижок у рядках потрібні податки"

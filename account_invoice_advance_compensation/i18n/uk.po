@@ -224,3 +224,180 @@ msgstr "Рахунок, який потрібно компенсувати ав�
 #: model:ir.model.fields,help:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__currency_id
 msgid "The currency of the compensation"
 msgstr "Валюта компенсації"
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/models/account_move_line.py:0
+msgid "Account '%s' must allow reconciliation."
+msgstr "Рахунок «%s» має дозволяти узгодження."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Advance compensation for %s"
+msgstr "Авансова компенсація для %s"
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Advance compensation from %s"
+msgstr "Авансова компенсація від %s"
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/models/account_move.py:0
+msgid "Advance compensation is only available for invoices and bills."
+msgstr ""
+"Компенсація авансу доступна лише для рахунків клієнтів і постачальників."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/models/account_move.py:0
+msgid "Advance compensation requires an invoice with a partner."
+msgstr "Для компенсації авансу потрібен рахунок із партнером."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Amount %(amount).2f exceeds advance residual %(residual).2f."
+msgstr "Сума %(amount).2f перевищує залишок авансу %(residual).2f."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Amount %(amount).2f exceeds invoice residual %(residual).2f."
+msgstr "Сума %(amount).2f перевищує залишок рахунку %(residual).2f."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/models/account_move_line.py:0
+msgid "Balance: %s"
+msgstr "Баланс: %s"
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Compensation amount must be greater than zero."
+msgstr "Сума компенсації має бути більшою за нуль."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Compensation for %s"
+msgstr "Компенсація для %s"
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Compensation is available only for customer invoices and vendor bills."
+msgstr "Компенсація доступна лише для рахунків клієнтів і постачальників."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Invoice is required to create compensation."
+msgstr "Для створення компенсації потрібен рахунок."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Journal '%s' is not configured for advance compensation."
+msgstr "Журнал «%s» не налаштовано для компенсації авансу."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/models/account_move_line.py:0
+msgid "Line '%(line)s' has no open residual amount to be compensated."
+msgstr "Рядок «%(line)s» не має відкритої залишкової суми для компенсації."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/models/account_move_line.py:0
+msgid ""
+"Line '%(line)s' uses account '%(account)s'. Only prepayment accounts are "
+"valid for advance compensation."
+msgstr ""
+"Рядок «%(line)s» використовує рахунок «%(account)s». Для компенсації авансу "
+"дозволені лише рахунки передоплати."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/models/account_move_line.py:0
+msgid ""
+"Line '%(line)s' uses account '%(account)s'. Only receivable or payable lines"
+" can be compensated."
+msgstr ""
+"Рядок «%(line)s» використовує рахунок «%(account)s». Компенсувати можна лише"
+" рядки дебіторської або кредиторської заборгованості."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/models/account_move_line.py:0
+msgid "Line '%s' does not belong to an invoice or bill."
+msgstr "Рядок «%s» не належить до рахунку клієнта або постачальника."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/models/account_move_line.py:0
+msgid "Line '%s' has no open residual amount."
+msgstr "Рядок «%s» не має відкритої залишкової суми."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/models/account_move.py:0
+msgid "No open prepayment entries were found for partner '%(partner)s'."
+msgstr "Для партнера «%(partner)s» не знайдено відкритих записів передоплати."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Only posted invoices and bills can be compensated."
+msgstr "Компенсувати можна лише проведені рахунки клієнтів і постачальників."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Reconciliation failed for invoice '%(invoice)s': %(error)s"
+msgstr "Не вдалося узгодити рахунок «%(invoice)s»: %(error)s"
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Select a journal for the compensation entry."
+msgstr "Виберіть журнал для компенсаційного проведення."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Select the advance line to apply."
+msgstr "Виберіть рядок авансу для застосування."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Select the invoice line that will be compensated."
+msgstr "Виберіть рядок рахунку, який буде компенсовано."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "The compensation entry must be posted before reconciliation."
+msgstr "Компенсаційне проведення потрібно провести до узгодження."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "The selected advance line belongs to a different partner."
+msgstr "Вибраний рядок авансу належить іншому партнеру."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "The selected invoice line does not belong to invoice '%s'."
+msgstr "Вибраний рядок рахунку не належить рахунку «%s»."
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/wizard/compensation_wizard.py:0
+msgid "Unable to identify generated compensation lines for reconciliation."
+msgstr "Не вдалося визначити створені рядки компенсації для узгодження."

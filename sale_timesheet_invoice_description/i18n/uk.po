@@ -33,14 +33,14 @@ msgstr ""
 #: code:addons/sale_timesheet_invoice_description/models/sale.py:0
 #, python-format
 msgid "Date - Description"
-msgstr ""
+msgstr "Дата — Опис"
 
 #. module: sale_timesheet_invoice_description
 #. odoo-python
 #: code:addons/sale_timesheet_invoice_description/models/sale.py:0
 #, python-format
 msgid "Date - Time spent - Description"
-msgstr ""
+msgstr "Дата — Витрачений час — Опис"
 
 #. module: sale_timesheet_invoice_description
 #: model_terms:ir.ui.view,arch_db:sale_timesheet_invoice_description.view_sales_config_inherit_timesheet_invoice_description
@@ -102,7 +102,7 @@ msgstr "Розділяти рядки замовлення за табелями
 #: code:addons/sale_timesheet_invoice_description/models/sale.py:0
 #, python-format
 msgid "Time spent - Description"
-msgstr ""
+msgstr "Витрачений час — Опис"
 
 #. module: sale_timesheet_invoice_description
 #: model:ir.model.fields,field_description:sale_timesheet_invoice_description.field_account_move_line__timesheet_invoice_description
