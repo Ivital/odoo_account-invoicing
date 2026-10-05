@@ -24,3 +24,19 @@ msgstr "Валюта клієнта"
 #: model:ir.model.fields,field_description:account_invoice_currency_by_partner.field_res_users__vendor_currency_id
 msgid "Vendor Currency"
 msgstr "Валюта постачальника"
+
+#. module: account_invoice_currency_by_partner
+#: model:ir.model.fields,help:account_invoice_currency_by_partner.field_res_partner__customer_currency_id
+#: model:ir.model.fields,help:account_invoice_currency_by_partner.field_res_users__customer_currency_id
+msgid "If field, this value set currency in customer bills for this partner"
+msgstr ""
+"Якщо поле заповнене, це значення задає валюту в рахунках клієнта для цього "
+"контрагента"
+
+#. module: account_invoice_currency_by_partner
+#: model:ir.model.fields,help:account_invoice_currency_by_partner.field_res_partner__vendor_currency_id
+#: model:ir.model.fields,help:account_invoice_currency_by_partner.field_res_users__vendor_currency_id
+msgid "If field, this value set currency in vendor bills for this partner"
+msgstr ""
+"Якщо поле заповнене, це значення задає валюту в рахунках постачальника для "
+"цього контрагента"

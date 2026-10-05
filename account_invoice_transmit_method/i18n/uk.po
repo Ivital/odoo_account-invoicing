@@ -81,6 +81,8 @@ msgid ""
 "Do not modify the code of an existing Transmit Method because it may be used"
 " to identify a particular transmit method."
 msgstr ""
+"Не змінюйте код наявного методу передавання, оскільки він може "
+"використовуватися для ідентифікації конкретного методу передавання."
 
 #. module: account_invoice_transmit_method
 #: model:transmit.method,name:account_invoice_transmit_method.mail

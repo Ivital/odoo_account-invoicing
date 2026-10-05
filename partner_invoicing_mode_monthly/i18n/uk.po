@@ -45,3 +45,13 @@ msgstr "Останнє виконання (щомісяця)"
 #: model:ir.model.fields.selection,name:partner_invoicing_mode_monthly.selection__res_partner__invoicing_mode__monthly
 msgid "Monthly"
 msgstr "Щомісяця"
+
+#. module: partner_invoicing_mode_monthly
+#: model_terms:ir.ui.view,arch_db:partner_invoicing_mode_monthly.res_config_settings_view_form
+msgid "<span>Monthly Invoicing Options</span>"
+msgstr "<span>Параметри щомісячного виставлення рахунків</span>"
+
+#. module: partner_invoicing_mode_monthly
+#: model:ir.actions.server,name:partner_invoicing_mode_monthly.ir_cron_generate_monthly_invoice_ir_actions_server
+msgid "Generate Monthly Invoices"
+msgstr "Створити щомісячні рахунки"

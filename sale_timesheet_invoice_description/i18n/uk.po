@@ -45,7 +45,7 @@ msgstr ""
 #. module: sale_timesheet_invoice_description
 #: model_terms:ir.ui.view,arch_db:sale_timesheet_invoice_description.view_sales_config_inherit_timesheet_invoice_description
 msgid "Default timesheet details on invoice lines"
-msgstr ""
+msgstr "Деталі табеля за замовчуванням у рядках рахунка"
 
 #. module: sale_timesheet_invoice_description
 #. odoo-python

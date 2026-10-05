@@ -95,3 +95,49 @@ msgstr "Перевірене повідомлення"
 #: model:ir.model.fields,field_description:account_move_tier_validation.field_account_move__validation_status
 msgid "Validation Status"
 msgstr "Статус перевірки"
+
+#. module: account_move_tier_validation
+#: model:ir.model.fields,help:account_move_tier_validation.field_account_move__has_comment
+msgid "If set, Allow the reviewer to leave a comment on the review."
+msgstr ""
+"Якщо встановлено, дозволити рецензенту залишати коментар до перевірки."
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+msgid "Invoices Pending to Validate"
+msgstr "Рахунки, що очікують перевірки"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+msgid "Invoices validated and ready to be confirmed"
+msgstr "Рахунки перевірено та готово до підтвердження"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+msgid "Invoices where no validation has been requested"
+msgstr "Рахунки, для яких перевірку не запитано"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+msgid "Invoices where validation has not started"
+msgstr "Рахунки, для яких перевірку не розпочато"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+msgid "My Accounts to review"
+msgstr "Мої рахунки на перевірку"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+msgid "No Validation Requested"
+msgstr "Перевірку не запитано"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+msgid "Validation In Progress"
+msgstr "Перевірка триває"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+msgid "Validation Not Started"
+msgstr "Перевірку не розпочато"

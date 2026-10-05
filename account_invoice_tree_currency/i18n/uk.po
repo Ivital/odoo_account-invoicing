@@ -27,3 +27,18 @@ msgstr "Разом"
 #: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
 msgid "Tax (Currency)"
 msgstr "Податок (валюта)"
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+msgid "Amount Due (Currency)"
+msgstr "Сума до сплати (валюта)"
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+msgid "Tax Excluded (Currency)"
+msgstr "Без податку (валюта)"
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+msgid "Total (Currency)"
+msgstr "Разом (валюта)"

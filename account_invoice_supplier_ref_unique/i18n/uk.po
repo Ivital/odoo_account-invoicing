@@ -24,3 +24,17 @@ msgstr "Перевіряти номер рахунку постачальник�
 #: model:ir.model.fields,field_description:account_invoice_supplier_ref_unique.field_account_move__supplier_invoice_number
 msgid "Vendor invoice number"
 msgstr "Номер рахунку постачальника"
+
+#. module: account_invoice_supplier_ref_unique
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_ref_unique.res_config_settings_form_view
+msgid "Check Unicity on Supplier Invoice Number"
+msgstr "Перевіряти унікальність номера рахунка постачальника"
+
+#. module: account_invoice_supplier_ref_unique
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_ref_unique.res_config_settings_form_view
+msgid ""
+"If you check this box, the system verifies that supplier invoice number is "
+"unique across the system."
+msgstr ""
+"Якщо встановити цей прапорець, система перевірятиме унікальність номера "
+"рахунку постачальника в усій системі."

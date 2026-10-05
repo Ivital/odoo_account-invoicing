@@ -139,3 +139,33 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:account_global_discount.field_account_move__amount_global_discount
 msgid "Total Global Discounts"
 msgstr "Загальна сума глобальних знижок"
+
+#. module: account_global_discount
+#: model_terms:ir.ui.view,arch_db:account_global_discount.report_invoice_document
+msgid "<strong>Subtotal w/o disc.</strong>"
+msgstr "<strong>Проміжний підсумок без знижки</strong>"
+
+#. module: account_global_discount
+#: model:ir.model.fields,field_description:account_global_discount.field_account_invoice_global_discount__base_discounted
+msgid "Base after discount"
+msgstr "База після знижки"
+
+#. module: account_global_discount
+#: model:ir.model.fields,field_description:account_global_discount.field_account_invoice_global_discount__base
+msgid "Base before discount"
+msgstr "База до знижки"
+
+#. module: account_global_discount
+#: model:ir.model.fields,field_description:account_global_discount.field_account_invoice_global_discount__discount
+msgid "Discount (number)"
+msgstr "Знижка (число)"
+
+#. module: account_global_discount
+#: model:ir.model.fields,field_description:account_global_discount.field_account_invoice_global_discount__discount_amount
+msgid "Discounted Amount"
+msgstr "Сума зі знижкою"
+
+#. module: account_global_discount
+#: model_terms:ir.ui.view,arch_db:account_global_discount.view_move_form
+msgid "Untaxed Amount Before Disc."
+msgstr "Сума без податків до знижки"

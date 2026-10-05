@@ -30,3 +30,26 @@ msgstr "Округляти за рядком"
 #: model:ir.model.fields,field_description:account_invoice_custom_rounding.field_res_users__tax_calculation_rounding_method
 msgid "Tax Calculation Rounding Method"
 msgstr "Метод округлення розрахунку податку"
+
+#. module: account_invoice_custom_rounding
+#: model:ir.model.fields,help:account_invoice_custom_rounding.field_res_partner__tax_calculation_rounding_method
+#: model:ir.model.fields,help:account_invoice_custom_rounding.field_res_users__tax_calculation_rounding_method
+msgid ""
+"How total tax amount is computed in sale orders and invoices when this "
+"contact is selected. If no value selected, the method defined in the company"
+" is used."
+msgstr ""
+"Визначає, як обчислюється загальна сума податків у замовленнях на продаж і "
+"рахунках, коли вибрано цей контакт. Якщо значення не вибране, "
+"використовується метод, визначений у компанії."
+
+#. module: account_invoice_custom_rounding
+#: model:ir.model.fields,help:account_invoice_custom_rounding.field_account_bank_statement_line__tax_calculation_rounding_method
+#: model:ir.model.fields,help:account_invoice_custom_rounding.field_account_move__tax_calculation_rounding_method
+#: model:ir.model.fields,help:account_invoice_custom_rounding.field_account_move_line__tax_calculation_rounding_method
+msgid ""
+"How total tax amount is computed. If no value selected, the method defined "
+"in the company is used."
+msgstr ""
+"Визначає спосіб обчислення загальної суми податку. Якщо значення не вибране,"
+" використовується метод, визначений у компанії."

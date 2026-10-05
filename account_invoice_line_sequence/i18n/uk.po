@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_invoice_line_sequence.field_account_move_line__sequence2
 msgid "Line Number"
 msgstr "Номер рядка"
+
+#. module: account_invoice_line_sequence
+#: model_terms:ir.ui.view,arch_db:account_invoice_line_sequence.report_invoice_sequence_qweb
+msgid "<strong>Sequence</strong>"
+msgstr "<strong>Послідовність</strong>"

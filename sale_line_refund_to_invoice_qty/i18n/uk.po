@@ -23,3 +23,36 @@ msgstr "Попередження"
 #: model:ir.model.fields,field_description:sale_line_refund_to_invoice_qty.field_res_config_settings__reinvoice_credit_note_default
 msgid "Reinvoice credit notes by default"
 msgstr "Повторно виставляти кредит-ноти за замовчуванням"
+
+#. module: sale_line_refund_to_invoice_qty
+#: model_terms:ir.ui.view,arch_db:sale_line_refund_to_invoice_qty.res_config_settings_view_form
+msgid ""
+"Enables the 'This credit note will be reinvoiced' flag on Credit Notes by "
+"default"
+msgstr ""
+"За замовчуванням вмикає прапорець «Цю кредит-ноту буде перевиставлено» у "
+"кредит-нотах"
+
+#. module: sale_line_refund_to_invoice_qty
+#: model_terms:ir.ui.view,arch_db:sale_line_refund_to_invoice_qty.view_account_move_reversal
+msgid ""
+"Leave it marked when other customer invoices are expected for the quantities"
+" in the credit note."
+msgstr ""
+"Залиште позначеним, якщо очікуються інші рахунки клієнта для кількостей у "
+"кредит-ноті."
+
+#. module: sale_line_refund_to_invoice_qty
+#: model:ir.model.fields,field_description:sale_line_refund_to_invoice_qty.field_sale_order_line__qty_refunded_not_invoiceable
+msgid "Quantity Refunded Not Invoiceable"
+msgstr "Повернена кількість, що не підлягає рахунку"
+
+#. module: sale_line_refund_to_invoice_qty
+#: model:ir.model.fields,field_description:sale_line_refund_to_invoice_qty.field_account_move_line__sale_qty_to_reinvoice
+msgid "Sale Qty To Reinvoice"
+msgstr "Кількість продажу для повторного рахунку"
+
+#. module: sale_line_refund_to_invoice_qty
+#: model:ir.model.fields,field_description:sale_line_refund_to_invoice_qty.field_account_move_reversal__sale_qty_to_reinvoice
+msgid "This credit note will be reinvoiced"
+msgstr "Для цієї кредит-ноти буде повторно виставлено рахунок"

@@ -36,3 +36,8 @@ msgstr "Зареєструвати платіж клієнта до стану"
 #: model:ir.model.fields,field_description:account_payment_state_keep_draft.field_res_config_settings__register_vendor_payment_state
 msgid "Register Vendor Payment to State"
 msgstr "Зареєструвати платіж постачальнику до стану"
+
+#. module: account_payment_state_keep_draft
+#: model_terms:ir.ui.view,arch_db:account_payment_state_keep_draft.res_config_settings_view_form
+msgid "Default state of the payment register when a payment is created."
+msgstr "Стан реєстрації платежу за замовчуванням при створенні платежу."

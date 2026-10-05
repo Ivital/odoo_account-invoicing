@@ -28,3 +28,32 @@ msgstr "Політика виставлення рахунку продажу"
 #: model:ir.model.fields.selection,name:sale_stock_picking_invoicing.selection__res_company__sale_invoicing_policy__stock_picking
 msgid "Stock Picking"
 msgstr "Складське переміщення"
+
+#. module: sale_stock_picking_invoicing
+#: model_terms:ir.ui.view,arch_db:sale_stock_picking_invoicing.sale_stock_picking_invoicing_res_config_settings_form
+msgid ""
+"Choose whether invoices are created from the Sale Order, from the Stock "
+"Picking, or from both with automatic sync."
+msgstr ""
+"Виберіть, чи створювати рахунки із замовлення на продаж, складського "
+"переміщення або з обох з автоматичною синхронізацією."
+
+#. module: sale_stock_picking_invoicing
+#: model:ir.model.fields,field_description:sale_stock_picking_invoicing.field_stock_invoice_onshipping__deduct_down_payments
+msgid "Deduct down payments"
+msgstr "Вирахувати авансові платежі"
+
+#. module: sale_stock_picking_invoicing
+#: model:ir.model.fields,field_description:sale_stock_picking_invoicing.field_stock_invoice_onshipping__has_down_payments
+msgid "Has down payments"
+msgstr "Є авансові платежі"
+
+#. module: sale_stock_picking_invoicing
+#: model:ir.model.fields.selection,name:sale_stock_picking_invoicing.selection__res_company__sale_invoicing_policy__both
+msgid "Sale Order and Stock Picking"
+msgstr "Замовлення на продаж і переміщення запасів"
+
+#. module: sale_stock_picking_invoicing
+#: model_terms:ir.ui.view,arch_db:sale_stock_picking_invoicing.sale_stock_picking_invoicing_res_config_settings_form
+msgid "This default value is applied to creation of Invoice."
+msgstr "Це значення за замовчуванням застосовується при створенні рахунка."

@@ -62,3 +62,14 @@ msgstr "Разом у валюті компанії"
 #: model:ir.model.fields,field_description:account_manual_currency.field_account_payment_register__type_currency
 msgid "Type Currency"
 msgstr "Валюта типу"
+
+#. module: account_manual_currency
+#: model:ir.model.fields,help:account_manual_currency.field_account_bank_statement_line__manual_currency_rate
+#: model:ir.model.fields,help:account_manual_currency.field_account_move__manual_currency_rate
+#: model:ir.model.fields,help:account_manual_currency.field_account_payment_register__manual_currency_rate
+msgid ""
+"Set new currency rate to apply on the invoice\n"
+".This rate will be taken in order to convert amounts between the currency on the purchase order and last currency"
+msgstr ""
+"Установіть новий валютний курс для застосування до рахунку.\n"
+"Цей курс використовуватиметься для перерахунку сум між валютою замовлення на закупівлю та останньою валютою"

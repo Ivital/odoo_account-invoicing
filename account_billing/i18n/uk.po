@@ -373,3 +373,107 @@ msgstr "Підтвердити"
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
+msgid "<span>Due Date</span>"
+msgstr "<span>Дата оплати</span>"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
+msgid "<span>Invoice Date</span>"
+msgstr "<span>Дата рахунка</span>"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
+msgid "<span>Invoice Number</span>"
+msgstr "<span>Номер рахунка</span>"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
+msgid "<span>Notes :</span>"
+msgstr "<span>Примітки:</span>"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
+msgid "<span>Source Document</span>"
+msgstr "<span>Документ-джерело</span>"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
+msgid "<span>Status</span>"
+msgstr "<span>Статус</span>"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
+msgid "<span>Total</span>"
+msgstr "<span>Разом</span>"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
+msgid "<strong>Billing Date:</strong>"
+msgstr "<strong>Дата виставлення рахунку:</strong>"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
+msgid "<strong>Due Date:</strong>"
+msgstr "<strong>Дата оплати:</strong>"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
+msgid "Cancelled Billing"
+msgstr "Скасоване виставлення рахунку"
+
+#. module: account_billing
+#: model_terms:ir.actions.act_window,help:account_billing.action_customer_billing
+msgid ""
+"Enter the customer the invoices expect to be paid by the customer for this\n"
+"            bill period. By default the pending invoices will be listed, automatically."
+msgstr ""
+"Введіть клієнта, рахунки якого очікується оплатити за цей\n"
+"            розрахунковий період. За замовчуванням автоматично перелічуються неоплачені рахунки."
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_billing__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_billing__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: account_billing
+#: model_terms:ir.actions.act_window,help:account_billing.action_supplier_billing
+msgid "Manage supplier billing you want to be used in the system."
+msgstr "Керувати виставленням рахунків постачальників у системі."
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_billing__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_billing__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__payment_paid_all
+msgid "Payment Paid All"
+msgstr "Платіж сплачено повністю"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__threshold_date_type
+msgid "Threshold Date Type"
+msgstr "Тип порогової дати"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
+msgid "Total Amount Residual"
+msgstr "Загальна залишкова сума"
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_billing__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

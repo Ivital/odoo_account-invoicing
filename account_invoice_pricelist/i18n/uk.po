@@ -34,3 +34,8 @@ msgstr "Позиція прайс-листа"
 #: model_terms:ir.ui.view,arch_db:account_invoice_pricelist.view_account_move_customer_form
 msgid "Update prices"
 msgstr "Оновити ціни"
+
+#. module: account_invoice_pricelist
+#: model_terms:ir.ui.view,arch_db:account_invoice_pricelist.view_account_move_customer_form
+msgid "Update price in lines from the pricelist"
+msgstr "Оновити ціну в рядках із прайс-листа"

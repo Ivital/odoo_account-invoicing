@@ -28,7 +28,7 @@ msgstr ""
 #. module: account_invoice_merge
 #: model_terms:ir.ui.view,arch_db:account_invoice_merge.view_invoice_merge
 msgid "Are you sure you want to merge these invoices?"
-msgstr ""
+msgstr "Ви впевнені, що хочете об’єднати ці рахунки?"
 
 #. module: account_invoice_merge
 #: model_terms:ir.ui.view,arch_db:account_invoice_merge.view_invoice_merge
@@ -80,7 +80,7 @@ msgstr ""
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge__keep_references
 msgid "Keep references from original invoices"
-msgstr ""
+msgstr "Зберігати посилання з початкових рахунків"
 
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge____last_update
@@ -129,6 +129,15 @@ msgid ""
 "                        * Invoice lines are exactly the same except for the\n"
 "                        product, quantity and unit.<br/>"
 msgstr ""
+"Зверніть увагу:<br/><br/>\n"
+"                        Рахунки буде об'єднано лише якщо:<br/>\n"
+"                        * Рахунки перебувають у стані «Чернетка».<br/>\n"
+"                        * Рахунки належать одному контрагенту.<br/>\n"
+"                        * Рахунки мають однакові компанію, контрагента, адресу,\n"
+"                        валюту, журнал, продавця, рахунок і тип.<br/><br/>\n"
+"                        Рядки буде об'єднано лише якщо:<br/>\n"
+"                        * Рядки рахунків повністю однакові, крім\n"
+"                        товару, кількості та одиниці.<br/>"
 
 #. module: account_invoice_merge
 #. odoo-python

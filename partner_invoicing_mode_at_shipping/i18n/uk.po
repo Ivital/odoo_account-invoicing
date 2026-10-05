@@ -30,3 +30,14 @@ msgstr "Режим виставлення рахунків"
 #: model:ir.model.fields,field_description:partner_invoicing_mode_at_shipping.field_sale_order__one_invoice_per_shipping
 msgid "One Invoice Per Shipping"
 msgstr "Один рахунок на відвантаження"
+
+#. module: partner_invoicing_mode_at_shipping
+#: model:ir.model.fields,help:partner_invoicing_mode_at_shipping.field_res_partner__one_invoice_per_shipping
+#: model:ir.model.fields,help:partner_invoicing_mode_at_shipping.field_res_users__one_invoice_per_shipping
+msgid ""
+"Check this if you want to create one invoice per shipping using the partner "
+"invoicing mode that should be different than 'At Shipping'."
+msgstr ""
+"Позначте, якщо потрібно створювати окремий рахунок для кожного відправлення,"
+" використовуючи режим виставлення рахунків контрагенту, відмінний від «При "
+"відправленні»."

@@ -23,3 +23,8 @@ msgstr "Параметр попередження рахунку"
 #: model_terms:ir.ui.view,arch_db:account_warn_option.account_warn_option_partner_form
 msgid "Select a warning option"
 msgstr "Виберіть параметр попередження"
+
+#. module: account_warn_option
+#: model:ir.model.fields.selection,name:account_warn_option.selection__warn_option__allowed_warning_usage__partner_invoice_warn
+msgid "(Partner) Warning on the Invoice"
+msgstr "(Контрагент) Попередження в рахунку"

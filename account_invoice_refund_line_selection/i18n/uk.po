@@ -22,3 +22,22 @@ msgstr "Рядки рахунка-фактури"
 #: model:ir.model.fields,field_description:account_invoice_refund_line_selection.field_account_move_reversal__refund_lines
 msgid "Refund Lines"
 msgstr "Рядки повернення коштів"
+
+#. module: account_invoice_refund_line_selection
+#: model:ir.model.fields,field_description:account_invoice_refund_line_selection.field_account_move_reversal__line_ids
+msgid "Invoice lines to refund"
+msgstr "Рядки рахунка для повернення"
+
+#. module: account_invoice_refund_line_selection
+#: model:ir.model.fields,field_description:account_invoice_refund_line_selection.field_account_move_reversal__selectable_invoice_lines_ids
+msgid "Selectable Invoice Lines"
+msgstr "Вибрані рядки рахунка"
+
+#. module: account_invoice_refund_line_selection
+#: model_terms:ir.ui.view,arch_db:account_invoice_refund_line_selection.view_account_invoice_refund_lines
+msgid ""
+"Use this option if you want to refund only some specific lines in an "
+"invoice."
+msgstr ""
+"Використовуйте цей параметр, якщо потрібно повернути кошти лише за окремі "
+"рядки рахунку."

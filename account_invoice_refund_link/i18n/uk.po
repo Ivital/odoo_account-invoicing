@@ -26,7 +26,7 @@ msgstr ""
 #. module: account_invoice_refund_link
 #: model_terms:ir.ui.view,arch_db:account_invoice_refund_link.view_customer_account_invoice_add_refunds_details_form
 msgid "Invoice reference"
-msgstr ""
+msgstr "Посилання на рахунок"
 
 #. module: account_invoice_refund_link
 #: model:ir.model,name:account_invoice_refund_link.model_account_move
@@ -41,7 +41,7 @@ msgstr ""
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,field_description:account_invoice_refund_link.field_account_move_line__origin_line_id
 msgid "Original invoice line"
-msgstr ""
+msgstr "Початковий рядок рахунку"
 
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,help:account_invoice_refund_link.field_account_move_line__origin_line_id
@@ -58,7 +58,7 @@ msgstr "Рахунки повернення коштів"
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,field_description:account_invoice_refund_link.field_account_move_line__refund_line_ids
 msgid "Refund invoice lines"
-msgstr ""
+msgstr "Рядки рахунку повернення"
 
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,help:account_invoice_refund_link.field_account_move_line__refund_line_ids

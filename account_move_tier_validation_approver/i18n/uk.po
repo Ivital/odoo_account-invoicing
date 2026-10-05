@@ -24,3 +24,27 @@ msgstr "Схвалювач рахунків постачальника"
 #: model:ir.model.fields,field_description:account_move_tier_validation_approver.field_account_move__approver_id
 msgid "Responsible for Approval"
 msgstr "Відповідальний за схвалення"
+
+#. module: account_move_tier_validation_approver
+#: model:ir.model.fields,field_description:account_move_tier_validation_approver.field_res_company__validation_approver_tier_definition_id
+msgid "Bill approval tier definition"
+msgstr "Визначення рівня схвалення рахунка"
+
+#. module: account_move_tier_validation_approver
+#: model:ir.model.fields,field_description:account_move_tier_validation_approver.field_res_config_settings__require_approver_in_vendor_bills
+msgid "Require Approver In Vendor Bills"
+msgstr "Вимагати погоджувача в рахунках постачальника"
+
+#. module: account_move_tier_validation_approver
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation_approver.res_config_settings_view_form
+msgid ""
+"Require approver before posting vendor bills. Values set here are company-"
+"specific."
+msgstr ""
+"Вимагати схвалення перед проведенням рахунків постачальників. Значення тут "
+"задаються окремо для кожної компанії."
+
+#. module: account_move_tier_validation_approver
+#: model:ir.model.fields,field_description:account_move_tier_validation_approver.field_res_company__require_approver_in_vendor_bills
+msgid "Require approver in vendor bills"
+msgstr "Вимагати погоджувача в рахунках постачальника"

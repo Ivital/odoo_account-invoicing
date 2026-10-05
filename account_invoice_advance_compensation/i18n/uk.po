@@ -138,3 +138,52 @@ msgstr "Рядок рахунку для компенсації"
 #: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.account_invoice_advance_compensation_wizard_view_form
 msgid "The journal to be used for the compensation entry"
 msgstr "Журнал для використання в компенсаційному проведенні"
+
+#. module: account_invoice_advance_compensation
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.view_move_form_inherit
+msgid ""
+"<strong>Advance Available:</strong> You can compensate advance payments for "
+"this invoice."
+msgstr ""
+"<strong>Доступний аванс:</strong> для цього рахунку можна зарахувати "
+"авансові платежі."
+
+#. module: account_invoice_advance_compensation
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.account_invoice_advance_compensation_wizard_view_form
+msgid "Advance Compensation"
+msgstr "Компенсація авансу"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,field_description:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__available_advance_line_ids
+msgid "Available Advance Line"
+msgstr "Доступний рядок авансу"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,field_description:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__amount
+msgid "Compensation Amount"
+msgstr "Сума компенсації"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,field_description:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__date
+msgid "Compensation Date"
+msgstr "Дата компенсації"
+
+#. module: account_invoice_advance_compensation
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.account_invoice_advance_compensation_wizard_view_form
+msgid "Compensation Details"
+msgstr "Деталі компенсації"
+
+#. module: account_invoice_advance_compensation
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.view_account_journal_form_inherit
+msgid "Is Advance Journal"
+msgstr "Є журналом авансів"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,field_description:account_invoice_advance_compensation.field_account_journal__is_advance_journal
+msgid "Is Compensation Advance Journal"
+msgstr "Є журналом компенсаційного авансу"
+
+#. module: account_invoice_advance_compensation
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.view_account_journal_form_inherit
+msgid "Mark this journal for advance payment compensation"
+msgstr "Позначити цей журнал для компенсації авансового платежу"

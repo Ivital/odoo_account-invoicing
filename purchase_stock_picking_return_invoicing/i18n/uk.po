@@ -32,3 +32,13 @@ msgstr "Повернення коштів"
 #: model:ir.model.fields,field_description:purchase_stock_picking_return_invoicing.field_purchase_order_line__qty_returned
 msgid "Returned* Qty"
 msgstr "Повернена* кількість"
+
+#. module: purchase_stock_picking_return_invoicing
+#: model:ir.model.fields,field_description:purchase_stock_picking_return_invoicing.field_purchase_order__invoice_refund_count
+msgid "# of Invoice Refunds"
+msgstr "Кількість повернень рахунків"
+
+#. module: purchase_stock_picking_return_invoicing
+#: model_terms:ir.ui.view,arch_db:purchase_stock_picking_return_invoicing.view_invoice_supplier_purchase_form
+msgid "Select a purchase order or an old bill"
+msgstr "Виберіть замовлення закупівлі або старий рахунок"

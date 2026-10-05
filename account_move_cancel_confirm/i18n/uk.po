@@ -36,3 +36,15 @@ msgstr "Скасувати підтверджені"
 #: model:ir.model.fields,field_description:account_move_cancel_confirm.field_account_payment__cancel_reason
 msgid "Cancel Reason"
 msgstr "Причина скасування"
+
+#. module: account_move_cancel_confirm
+#: model:ir.model.fields,help:account_move_cancel_confirm.field_account_move__cancel_confirm
+#: model:ir.model.fields,help:account_move_cancel_confirm.field_account_payment__cancel_confirm
+msgid "A flag signify that this document is confirmed for cancellation"
+msgstr "Прапорець означає, що цей документ підтверджено для скасування"
+
+#. module: account_move_cancel_confirm
+#: model:ir.model.fields,help:account_move_cancel_confirm.field_account_move__cancel_reason
+#: model:ir.model.fields,help:account_move_cancel_confirm.field_account_payment__cancel_reason
+msgid "An optional cancel reason"
+msgstr "Необов'язкова причина скасування"

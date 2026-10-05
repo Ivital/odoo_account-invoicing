@@ -17,3 +17,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_credit_note_reversal.form_view_account_move_reversal_inherit_credit_note
 msgid "Reversal reason"
 msgstr "Причина сторнування"
+
+#. module: sale_credit_note_reversal
+#: model_terms:ir.ui.view,arch_db:sale_credit_note_reversal.form_view_account_move_reversal_inherit_credit_note
+msgid "Reverse and Create Invoice/Credit Note"
+msgstr "Сторнувати та створити рахунок/кредит-ноту"
+
+#. module: sale_credit_note_reversal
+#: model_terms:ir.ui.view,arch_db:sale_credit_note_reversal.view_order_form_revert_credit_note
+msgid "Revert Credit Note"
+msgstr "Повернути кредит-ноту"

@@ -212,3 +212,151 @@ msgstr "Залишкова сума"
 #: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
 msgid "Use"
 msgstr "Використовувати"
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid ""
+"<span class=\"o_form_label\" style=\"font-weight:bolder;\" "
+"invisible=\"1\">Actions:</span>"
+msgstr ""
+"<span class=\"o_form_label\" style=\"font-weight:bolder;\" "
+"invisible=\"1\">Дії:</span>"
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid ""
+"<span class=\"o_form_label\" style=\"font-weight:bolder;\" "
+"invisible=\"1\">Sort by:</span>"
+msgstr ""
+"<span class=\"o_form_label\" style=\"font-weight:bolder;\" "
+"invisible=\"1\">Сортувати за:</span>"
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid ""
+"Are you sure you want to use the selected configuration to clear invoices? "
+"This operation will create a new move and will reconcile every line with its"
+" respective counterpart."
+msgstr ""
+"Ви впевнені, що хочете використати вибрану конфігурацію для зарахування "
+"рахунків? Буде створено нову проводку та звірено кожен рядок із відповідним "
+"контрагентом."
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Create and Concile"
+msgstr "Створити й узгодити"
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Fill amounts in order"
+msgstr "Заповнити суми в замовленні"
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid ""
+"Fills the amount to clear with the residual amount of the invoice until the "
+"total residual amount is zero."
+msgstr ""
+"Заповнює суму до зарахування залишковою сумою рахунку, доки загальна "
+"залишкова сума не стане нульовою."
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Move Lines to clear"
+msgstr "Рядки руху для очищення"
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Move Lines to use for clearing"
+msgstr "Рядки переміщення для очищення"
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Move and Move lines texts"
+msgstr "Тексти переміщень і рядків переміщення"
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Move general configuration"
+msgstr "Загальна конфігурація переміщення"
+
+#. module: account_invoice_clearing
+#: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_wizard__move_line_prefix
+msgid "Prefix for move lines"
+msgstr "Префікс рядків руху"
+
+#. module: account_invoice_clearing
+#: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_wizard__preview_move_data
+msgid "Preview Move Data"
+msgstr "Попередній перегляд даних руху"
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Removes all lines and adds all available move lines again."
+msgstr "Видаляє всі рядки та знову додає всі доступні рядки переміщення."
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Residual Amount (asc)"
+msgstr "Залишкова сума (за зростанням)"
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Residual Amount (desc)"
+msgstr "Залишкова сума (за спаданням)"
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Residual Amount Total (Signed)"
+msgstr "Загальна залишкова сума (зі знаком)"
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Residual Amount to clear (Signed)"
+msgstr "Залишкова сума для очищення (зі знаком)"
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Resulting move will not be fully reconciled."
+msgstr "Результуюче переміщення не буде повністю узгоджено."
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Sorts the invoices by date due ascending."
+msgstr "Сортує рахунки за датою оплати за зростанням."
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Sorts the invoices by date due descending."
+msgstr "Сортує рахунки за датою оплати за спаданням."
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Sorts the invoices by residual amount ascending."
+msgstr "Сортує рахунки за залишковою сумою за зростанням."
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Sorts the invoices by residual amount descending."
+msgstr "Сортує рахунки за залишковою сумою за спаданням."
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "The following Journal Entries will be generated"
+msgstr "Буде створено такі записи журналу"
+
+#. module: account_invoice_clearing
+#: model:ir.model.fields,help:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__date_maturity
+msgid ""
+"This field is used for payable and receivable journal entries. You can put "
+"the limit date for the payment of this line."
+msgstr ""
+"Це поле використовується для журнальних записів кредиторської та "
+"дебіторської заборгованості. Тут можна вказати граничну дату оплати цього "
+"рядка."
+
+#. module: account_invoice_clearing
+#: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
+msgid "Total Amount Residual (Signed)"
+msgstr "Загальна залишкова сума (зі знаком)"
