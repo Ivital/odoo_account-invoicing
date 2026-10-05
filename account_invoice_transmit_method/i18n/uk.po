@@ -53,13 +53,13 @@ msgstr "Створено"
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_partner__customer_invoice_transmit_method_id
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_users__customer_invoice_transmit_method_id
 msgid "Customer Invoice Transmission Method"
-msgstr ""
+msgstr "Спосіб передавання рахунку клієнту"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_partner__customer_invoice_transmit_method_code
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_users__customer_invoice_transmit_method_code
 msgid "Customer Invoice Transmission Method Code"
-msgstr ""
+msgstr "Код способу передавання рахунку клієнту"
 
 #. module: account_invoice_transmit_method
 #: model:transmit.method,name:account_invoice_transmit_method.portal
@@ -115,24 +115,24 @@ msgstr "Назва"
 #. module: account_invoice_transmit_method
 #: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method.transmit_method_search
 msgid "Name or Code"
-msgstr ""
+msgstr "Назва або код"
 
 #. module: account_invoice_transmit_method
 #: model:transmit.method,name:account_invoice_transmit_method.post
 msgid "Post"
-msgstr ""
+msgstr "Провести"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__customer_ok
 #: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method.transmit_method_search
 msgid "Selectable on Customers"
-msgstr ""
+msgstr "Можна вибирати для клієнтів"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__supplier_ok
 #: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method.transmit_method_search
 msgid "Selectable on Vendors"
-msgstr ""
+msgstr "Можна вибирати для постачальників"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__sequence
@@ -156,14 +156,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_account_move__transmit_method_id
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_account_payment__transmit_method_id
 msgid "Transmission Method"
-msgstr ""
+msgstr "Спосіб передавання"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_account_bank_statement_line__transmit_method_code
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_account_move__transmit_method_code
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_account_payment__transmit_method_code
 msgid "Transmission Method Code"
-msgstr ""
+msgstr "Код способу передавання"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model,name:account_invoice_transmit_method.model_transmit_method
@@ -180,13 +180,13 @@ msgstr "Методи передавання"
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_partner__supplier_invoice_transmit_method_id
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_users__supplier_invoice_transmit_method_id
 msgid "Vendor Invoice Reception Method"
-msgstr ""
+msgstr "Спосіб отримання рахунку постачальника"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_partner__supplier_invoice_transmit_method_code
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_users__supplier_invoice_transmit_method_code
 msgid "Vendor Invoice Reception Method Code"
-msgstr ""
+msgstr "Код способу отримання рахунку постачальника"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

@@ -68,7 +68,7 @@ msgstr "Створено"
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_wizard_update_invoice_supplierinfo_line__current_discount
 msgid "Current Discount"
-msgstr ""
+msgstr "Поточна знижка"
 
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,help:account_invoice_supplierinfo_update.field_wizard_update_invoice_supplierinfo_line__product_uom_id
@@ -85,7 +85,7 @@ msgstr ""
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_wizard_update_invoice_supplierinfo__display_discount
 msgid "Display Discount"
-msgstr ""
+msgstr "Відображати знижку"
 
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_wizard_update_invoice_supplierinfo__display_name
@@ -107,7 +107,7 @@ msgstr "ID"
 #. module: account_invoice_supplierinfo_update
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplierinfo_update.view_wizard_update_invoice_supplierinfo_form
 msgid "Ignore"
-msgstr ""
+msgstr "Ігнорувати"
 
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_wizard_update_invoice_supplierinfo__invoice_id
@@ -154,17 +154,17 @@ msgstr "Нова вартість"
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_wizard_update_invoice_supplierinfo_line__new_discount
 msgid "New Discount"
-msgstr ""
+msgstr "Нова знижка"
 
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_wizard_update_invoice_supplierinfo_line__new_min_quantity
 msgid "New Min Quantity"
-msgstr ""
+msgstr "Нова мінімальна кількість"
 
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_wizard_update_invoice_supplierinfo_line__new_price
 msgid "New Unit Price"
-msgstr ""
+msgstr "Нова ціна за одиницю"
 
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_wizard_update_invoice_supplierinfo_line__new_uom_id
@@ -195,18 +195,18 @@ msgstr "Постачальник"
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_account_bank_statement_line__supplierinfo_ok
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_account_move__supplierinfo_ok
 msgid "Supplier Informations Checked"
-msgstr ""
+msgstr "Перевірена інформація постачальника"
 
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_account_bank_statement_line__supplier_partner_id
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_account_move__supplier_partner_id
 msgid "Supplier Partner"
-msgstr ""
+msgstr "Контрагент-постачальник"
 
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_wizard_update_invoice_supplierinfo_line__supplierinfo_id
 msgid "Supplierinfo"
-msgstr ""
+msgstr "Інформація про постачальника"
 
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,help:account_invoice_supplierinfo_update.field_wizard_update_invoice_supplierinfo_line__current_price
@@ -231,7 +231,7 @@ msgstr ""
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_wizard_update_invoice_supplierinfo_line__product_uom_id
 msgid "Unit of Measure"
-msgstr ""
+msgstr "Одиниця вимірювання"
 
 #. module: account_invoice_supplierinfo_update
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update.field_wizard_update_invoice_supplierinfo_line__current_uom_id

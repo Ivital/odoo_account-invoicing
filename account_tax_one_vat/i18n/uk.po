@@ -30,3 +30,16 @@ msgstr "Назва ПДВ"
 #: model:ir.model.fields,field_description:account_tax_one_vat.field_account_tax__is_vat
 msgid "VAT tax"
 msgstr "Податок ПДВ"
+
+#. module: account_tax_one_vat
+#: model:ir.model.fields,help:account_tax_one_vat.field_res_company__account_tax_one_vat
+#: model:ir.model.fields,help:account_tax_one_vat.field_res_config_settings__account_tax_one_vat
+#: model_terms:ir.ui.view,arch_db:account_tax_one_vat.res_config_settings_view_form
+msgid "Avoid the selection of multiple VAT taxes."
+msgstr "Уникати вибору кількох податків ПДВ."
+
+#. module: account_tax_one_vat
+#: model:ir.model.fields,field_description:account_tax_one_vat.field_res_company__account_tax_one_vat
+#: model:ir.model.fields,field_description:account_tax_one_vat.field_res_config_settings__account_tax_one_vat
+msgid "One VAT tax only"
+msgstr "Лише один податок ПДВ"

@@ -23,3 +23,42 @@ msgstr "Вручну"
 #: model_terms:ir.ui.view,arch_db:account_manual_currency.view_move_form
 msgid "Opened"
 msgstr "Відкрито"
+
+#. module: account_manual_currency
+#: model_terms:ir.ui.view,arch_db:account_manual_currency.view_move_form
+msgid "<i title=\"Update Currency\" class=\"fa fa-fw fa-refresh\"/>"
+msgstr "<i title=\"Оновити валюту\" class=\"fa fa-fw fa-refresh\"/>"
+
+#. module: account_manual_currency
+#: model:ir.model.fields,field_description:account_manual_currency.field_account_bank_statement_line__currency_diff
+#: model:ir.model.fields,field_description:account_manual_currency.field_account_move__currency_diff
+#: model:ir.model.fields,field_description:account_manual_currency.field_account_payment_register__currency_diff
+msgid "Currency Diff"
+msgstr "Курсова різниця"
+
+#. module: account_manual_currency
+#: model:ir.model.fields,field_description:account_manual_currency.field_account_bank_statement_line__manual_currency
+#: model:ir.model.fields,field_description:account_manual_currency.field_account_move__manual_currency
+#: model:ir.model.fields,field_description:account_manual_currency.field_account_payment_register__manual_currency
+msgid "Manual Currency"
+msgstr "Ручна валюта"
+
+#. module: account_manual_currency
+#: model:ir.model.fields,field_description:account_manual_currency.field_account_bank_statement_line__manual_currency_rate
+#: model:ir.model.fields,field_description:account_manual_currency.field_account_move__manual_currency_rate
+#: model:ir.model.fields,field_description:account_manual_currency.field_account_payment_register__manual_currency_rate
+msgid "Manual Currency Rate"
+msgstr "Ручний курс валюти"
+
+#. module: account_manual_currency
+#: model:ir.model.fields,field_description:account_manual_currency.field_account_bank_statement_line__total_company_currency
+#: model:ir.model.fields,field_description:account_manual_currency.field_account_move__total_company_currency
+msgid "Total Company Currency"
+msgstr "Разом у валюті компанії"
+
+#. module: account_manual_currency
+#: model:ir.model.fields,field_description:account_manual_currency.field_account_bank_statement_line__type_currency
+#: model:ir.model.fields,field_description:account_manual_currency.field_account_move__type_currency
+#: model:ir.model.fields,field_description:account_manual_currency.field_account_payment_register__type_currency
+msgid "Type Currency"
+msgstr "Валюта типу"

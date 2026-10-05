@@ -53,3 +53,88 @@ msgstr "Рядок рахунка-фактури"
 #: model:ir.model.fields,field_description:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__journal_id
 msgid "Journal"
 msgstr "Журнал"
+
+#. module: account_invoice_advance_compensation
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.account_invoice_advance_compensation_wizard_view_form
+msgid "Advance Payment"
+msgstr "Авансовий платіж"
+
+#. module: account_invoice_advance_compensation
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.view_account_journal_form_inherit
+msgid "Advance Settings"
+msgstr "Налаштування авансу"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,field_description:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__advance_balance
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.account_invoice_advance_compensation_wizard_view_form
+msgid "Available Balance"
+msgstr "Доступний баланс"
+
+#. module: account_invoice_advance_compensation
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.account_invoice_advance_compensation_wizard_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/models/account_move.py:0
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.view_move_form_inherit
+msgid "Compensate Advance"
+msgstr "Компенсувати аванс"
+
+#. module: account_invoice_advance_compensation
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.account_invoice_advance_compensation_wizard_view_form
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,field_description:account_invoice_advance_compensation.field_account_bank_statement_line__advance_invoice
+#: model:ir.model.fields,field_description:account_invoice_advance_compensation.field_account_move__advance_invoice
+msgid "Has Advance Payments"
+msgstr "Має авансові платежі"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,field_description:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,field_description:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,help:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__advance_line_id
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.account_invoice_advance_compensation_wizard_view_form
+msgid "The advance line to be used for compensation"
+msgstr "Рядок авансу для використання в компенсації"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,help:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__amount
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.account_invoice_advance_compensation_wizard_view_form
+msgid "The amount to be compensated"
+msgstr "Сума до компенсації"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,help:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__advance_balance
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.account_invoice_advance_compensation_wizard_view_form
+msgid "The available balance in the selected advance line"
+msgstr "Доступний баланс у вибраному рядку авансу"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,help:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__date
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.account_invoice_advance_compensation_wizard_view_form
+msgid "The date of the compensation"
+msgstr "Дата компенсації"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,help:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__invoice_line_id
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.account_invoice_advance_compensation_wizard_view_form
+msgid "The invoice line to be compensated"
+msgstr "Рядок рахунку для компенсації"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,help:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__journal_id
+#: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.account_invoice_advance_compensation_wizard_view_form
+msgid "The journal to be used for the compensation entry"
+msgstr "Журнал для використання в компенсаційному проведенні"

@@ -37,3 +37,35 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz__invoice_id
 msgid "Invoice"
 msgstr "Рахунок-фактура"
+
+#. module: account_invoice_check_picking_date
+#. odoo-python
+#: code:addons/account_invoice_check_picking_date/wizards/invoice_stock_picking_date_wiz.py:0
+#: model_terms:ir.ui.view,arch_db:account_invoice_check_picking_date.invoice_stock_picking_date_wizard
+msgid "Accounting date does not match with stock move dates"
+msgstr "Бухгалтерська дата не збігається з датами складських переміщень"
+
+#. module: account_invoice_check_picking_date
+#: model_terms:ir.ui.view,arch_db:account_invoice_check_picking_date.invoice_stock_picking_date_wizard
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_invoice_check_picking_date
+#: model_terms:ir.ui.view,arch_db:account_invoice_check_picking_date.invoice_stock_picking_date_wizard
+msgid "Dates does not match"
+msgstr "Дати не збігаються"
+
+#. module: account_invoice_check_picking_date
+#: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz__exception_msg
+msgid "Exception Msg"
+msgstr "Повідомлення винятку"
+
+#. module: account_invoice_check_picking_date
+#: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_invoice_check_picking_date
+#: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

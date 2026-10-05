@@ -24,3 +24,13 @@ msgstr "Прайс-лист"
 #: model:ir.ui.menu,name:account_invoice_pricelist.menu_product_pricelist_main
 msgid "Pricelists"
 msgstr "Прайс-листи"
+
+#. module: account_invoice_pricelist
+#: model:ir.model.fields,field_description:account_invoice_pricelist.field_account_move_line__pricelist_item_id
+msgid "Pricelist Item"
+msgstr "Позиція прайс-листа"
+
+#. module: account_invoice_pricelist
+#: model_terms:ir.ui.view,arch_db:account_invoice_pricelist.view_account_move_customer_form
+msgid "Update prices"
+msgstr "Оновити ціни"

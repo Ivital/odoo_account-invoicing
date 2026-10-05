@@ -18,3 +18,21 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_payment_state_keep_draft.selection__res_company__register_vendor_payment_state__posted
 msgid "Posted"
 msgstr "Проведено"
+
+#. module: account_payment_state_keep_draft
+#: model:ir.model.fields.selection,name:account_payment_state_keep_draft.selection__res_company__register_customer_payment_state__draft
+#: model:ir.model.fields.selection,name:account_payment_state_keep_draft.selection__res_company__register_vendor_payment_state__draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: account_payment_state_keep_draft
+#: model:ir.model.fields,field_description:account_payment_state_keep_draft.field_res_company__register_customer_payment_state
+#: model:ir.model.fields,field_description:account_payment_state_keep_draft.field_res_config_settings__register_customer_payment_state
+msgid "Register Customer Payment to State"
+msgstr "Зареєструвати платіж клієнта до стану"
+
+#. module: account_payment_state_keep_draft
+#: model:ir.model.fields,field_description:account_payment_state_keep_draft.field_res_company__register_vendor_payment_state
+#: model:ir.model.fields,field_description:account_payment_state_keep_draft.field_res_config_settings__register_vendor_payment_state
+msgid "Register Vendor Payment to State"
+msgstr "Зареєструвати платіж постачальнику до стану"

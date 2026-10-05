@@ -22,3 +22,8 @@ msgstr "Сума до сплати"
 #: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
 msgid "Total"
 msgstr "Разом"
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+msgid "Tax (Currency)"
+msgstr "Податок (валюта)"

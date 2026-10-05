@@ -24,3 +24,15 @@ msgstr "Скасував"
 #: model:ir.model.fields,field_description:account_move_cancel_confirm.field_account_payment__cancel_date
 msgid "Cancel Date"
 msgstr "Дата скасування"
+
+#. module: account_move_cancel_confirm
+#: model:ir.model.fields,field_description:account_move_cancel_confirm.field_account_move__cancel_confirm
+#: model:ir.model.fields,field_description:account_move_cancel_confirm.field_account_payment__cancel_confirm
+msgid "Cancel Confirmed"
+msgstr "Скасувати підтверджені"
+
+#. module: account_move_cancel_confirm
+#: model:ir.model.fields,field_description:account_move_cancel_confirm.field_account_move__cancel_reason
+#: model:ir.model.fields,field_description:account_move_cancel_confirm.field_account_payment__cancel_reason
+msgid "Cancel Reason"
+msgstr "Причина скасування"

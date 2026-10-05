@@ -201,3 +201,175 @@ msgstr "Постачальник"
 #: model:ir.model.fields.selection,name:account_billing.selection__account_billing__bill_type__in_invoice
 msgid "Vendor Bill"
 msgstr "Рахунок постачальника"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__invoice_related_count
+msgid "# of Invoices"
+msgstr "Кількість рахунків"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
+msgid "<strong>Currency:</strong>"
+msgstr "<strong>Валюта:</strong>"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
+msgid "Are you sure to cancel this document?"
+msgstr "Ви впевнені, що хочете скасувати цей документ?"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: account_billing
+#: model:ir.model.fields.selection,name:account_billing.selection__account_billing__state__billed
+#: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
+msgid "Billed"
+msgstr "Виставлено рахунок"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
+msgid "Billed Billing"
+msgstr "Виставлено рахунок"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__date
+msgid "Billing Date"
+msgstr "Дата виставлення рахунку"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_bank_statement_line__billing_line_ids
+#: model:ir.model.fields,field_description:account_billing.field_account_move__billing_line_ids
+#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
+msgid "Billing Lines"
+msgstr "Рядки виставлення рахунків"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_billing
+#: model_terms:ir.actions.act_window,help:account_billing.action_customer_billing
+#: model_terms:ir.actions.act_window,help:account_billing.action_supplier_billing
+msgid "Click to register a new billing."
+msgstr "Натисніть, щоб зареєструвати нове виставлення рахунку."
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
+msgid "Compute items"
+msgstr "Обчислити позиції"
+
+#. module: account_billing
+#: model:ir.actions.server,name:account_billing.action_account_invoice_billing
+msgid "Create Billing"
+msgstr "Створити білінг"
+
+#. module: account_billing
+#: model:ir.model.fields.selection,name:account_billing.selection__account_billing__bill_type__out_invoice
+msgid "Customer Invoice"
+msgstr "Рахунок клієнту"
+
+#. module: account_billing
+#: model:ir.model.fields.selection,name:account_billing.selection__account_billing__state__draft
+#: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
+#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
+#: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
+msgid "Draft Billing"
+msgstr "Чернетка виставлення рахунку"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__write_uid
+#: model:ir.model.fields,field_description:account_billing.field_account_billing_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__write_date
+#: model:ir.model.fields,field_description:account_billing.field_account_billing_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing_line__payment_state
+msgid "Payment Status"
+msgstr "Статус оплати"
+
+#. module: account_billing
+#: model:ir.actions.server,name:account_billing.action_account_billing_from_list
+#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
+msgid "Register Payment"
+msgstr "Зареєструвати платіж"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
+msgid "Search Billings"
+msgstr "Пошук білінгів"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
+msgid "Set to Draft"
+msgstr "Повернути в чернетку"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_tree
+#: model_terms:ir.ui.view,arch_db:account_billing.view_account_supplier_billing_tree
+msgid "Tax Excluded"
+msgstr "Без податку"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__threshold_date
+#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
+msgid "Threshold Date"
+msgstr "Порогова дата"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__amount_untaxed
+msgid "Untaxed Amount"
+msgstr "Сума без податків"
+
+#. module: account_billing
+#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
+msgid "Validate"
+msgstr "Підтвердити"
+
+#. module: account_billing
+#: model:ir.model.fields,field_description:account_billing.field_account_billing__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"

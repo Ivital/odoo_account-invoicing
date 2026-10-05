@@ -1,0 +1,47 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 10:13+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: partner_invoicing_mode_monthly
+#: model:ir.model.fields,field_description:partner_invoicing_mode_monthly.field_res_company__invoicing_mode_monthly_day_todo
+#: model:ir.model.fields,field_description:partner_invoicing_mode_monthly.field_res_config_settings__res_invoicing_mode_monthly_day_todo
+msgid "Invoicing Day"
+msgstr "День виставлення рахунку"
+
+#. module: partner_invoicing_mode_monthly
+#: model:ir.model.fields,field_description:partner_invoicing_mode_monthly.field_res_partner__invoicing_mode
+#: model:ir.model.fields,field_description:partner_invoicing_mode_monthly.field_res_users__invoicing_mode
+msgid "Invoicing Mode"
+msgstr "Режим виставлення рахунків"
+
+#. module: partner_invoicing_mode_monthly
+#: model_terms:ir.ui.view,arch_db:partner_invoicing_mode_monthly.res_config_settings_view_form
+msgid "Invoicing day"
+msgstr "День виставлення рахунків"
+
+#. module: partner_invoicing_mode_monthly
+#: model_terms:ir.ui.view,arch_db:partner_invoicing_mode_monthly.res_config_settings_view_form
+msgid "Last executed on"
+msgstr "Останнє виконання"
+
+#. module: partner_invoicing_mode_monthly
+#: model:ir.model.fields,field_description:partner_invoicing_mode_monthly.field_res_company__invoicing_mode_monthly_last_execution
+#: model:ir.model.fields,field_description:partner_invoicing_mode_monthly.field_res_config_settings__res_invoicing_mode_monthly_last_execution
+msgid "Last execution (monthly)"
+msgstr "Останнє виконання (щомісяця)"
+
+#. module: partner_invoicing_mode_monthly
+#: model:ir.model.fields.selection,name:partner_invoicing_mode_monthly.selection__res_partner__invoicing_mode__monthly
+msgid "Monthly"
+msgstr "Щомісяця"

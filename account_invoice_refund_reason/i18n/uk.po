@@ -59,3 +59,20 @@ msgstr "Назва причини"
 #: model:ir.ui.menu,name:account_invoice_refund_reason.refund_reasons_menu
 msgid "Refund Reasons"
 msgstr "Причини відшкодування"
+
+#. module: account_invoice_refund_reason
+#: model:ir.model.fields,field_description:account_invoice_refund_reason.field_account_move_refund_reason__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_invoice_refund_reason
+#: model:ir.model.fields,field_description:account_invoice_refund_reason.field_account_move_refund_reason__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_invoice_refund_reason
+#: model:ir.model.fields,field_description:account_invoice_refund_reason.field_account_bank_statement_line__reason_id
+#: model:ir.model.fields,field_description:account_invoice_refund_reason.field_account_move__reason_id
+#: model:ir.model.fields,field_description:account_invoice_refund_reason.field_account_move_reversal__reason_id
+msgid "Refund Reason"
+msgstr "Причина повернення коштів"

@@ -17,3 +17,14 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale_stock_picking_invoicing.selection__res_company__sale_invoicing_policy__sale_order
 msgid "Sale Order"
 msgstr "Замовлення на продаж"
+
+#. module: sale_stock_picking_invoicing
+#: model:ir.model.fields,field_description:sale_stock_picking_invoicing.field_res_company__sale_invoicing_policy
+#: model:ir.model.fields,field_description:sale_stock_picking_invoicing.field_res_config_settings__sale_invoicing_policy
+msgid "Sale Invoicing Policy"
+msgstr "Політика виставлення рахунку продажу"
+
+#. module: sale_stock_picking_invoicing
+#: model:ir.model.fields.selection,name:sale_stock_picking_invoicing.selection__res_company__sale_invoicing_policy__stock_picking
+msgid "Stock Picking"
+msgstr "Складське переміщення"

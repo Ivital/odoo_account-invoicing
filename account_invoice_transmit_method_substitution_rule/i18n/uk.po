@@ -58,3 +58,18 @@ msgstr "Назва"
 #: model:ir.ui.menu,name:account_invoice_transmit_method_substitution_rule.transmit_method_substitution_rule_menu
 msgid "Transmit Method Substitution Rules"
 msgstr "Правила заміни способу передавання"
+
+#. module: account_invoice_transmit_method_substitution_rule
+#: model:ir.model.fields,field_description:account_invoice_transmit_method_substitution_rule.field_transmit_method_substitution_rule__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_invoice_transmit_method_substitution_rule
+#: model:ir.model.fields,field_description:account_invoice_transmit_method_substitution_rule.field_transmit_method_substitution_rule__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_invoice_transmit_method_substitution_rule
+#: model:ir.model.fields,field_description:account_invoice_transmit_method_substitution_rule.field_transmit_method_substitution_rule__transmit_method_id
+msgid "Transmit Method"
+msgstr "Метод передавання"

@@ -55,12 +55,12 @@ msgstr "Назва для відображення"
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:0
 #, python-format
 msgid "Draft"
-msgstr ""
+msgstr "Чернетка"
 
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge__error_message
 msgid "Error Message"
-msgstr ""
+msgstr "Повідомлення про помилку"
 
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge__id
@@ -100,14 +100,14 @@ msgstr "Дата останньої зміни"
 #. module: account_invoice_merge
 #: model_terms:ir.ui.view,arch_db:account_invoice_merge.view_invoice_merge
 msgid "Merge Invoices"
-msgstr ""
+msgstr "Об’єднати рахунки"
 
 #. module: account_invoice_merge
 #: model:ir.actions.act_window,name:account_invoice_merge.action_view_invoice_merge
 #: model:ir.model,name:account_invoice_merge.model_invoice_merge
 #: model_terms:ir.ui.view,arch_db:account_invoice_merge.view_invoice_merge
 msgid "Merge Partner Invoice"
-msgstr ""
+msgstr "Об'єднати рахунок контрагента"
 
 #. module: account_invoice_merge
 #. odoo-python

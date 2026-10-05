@@ -17,3 +17,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_invoice_refund_line_selection.view_account_invoice_refund_lines
 msgid "Invoice Lines"
 msgstr "Рядки рахунка-фактури"
+
+#. module: account_invoice_refund_line_selection
+#: model:ir.model.fields,field_description:account_invoice_refund_line_selection.field_account_move_reversal__refund_lines
+msgid "Refund Lines"
+msgstr "Рядки повернення коштів"

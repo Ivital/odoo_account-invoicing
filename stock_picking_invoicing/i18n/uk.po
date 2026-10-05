@@ -71,3 +71,74 @@ msgstr "Партнер"
 #: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_onshipping__group__picking
 msgid "Picking"
 msgstr "Переміщення"
+
+#. module: stock_picking_invoicing
+#: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_stock_invoice_onshipping
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_picking_invoicing
+#: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_form
+msgid "Create Invoice"
+msgstr "Створити рахунок"
+
+#. module: stock_picking_invoicing
+#: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_stock_invoice_onshipping
+msgid "Create invoice"
+msgstr "Створити рахунок"
+
+#. module: stock_picking_invoicing
+#: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_state_mixin__invoice_state
+#: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_move__invoice_state
+#: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_picking__invoice_state
+msgid "Invoice Status"
+msgstr "Статус рахунку"
+
+#. module: stock_picking_invoicing
+#: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_picking_invoicing
+#: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_picking_invoicing
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_return_picking__invoice_state__none
+msgid "No invoicing"
+msgstr "Без виставлення рахунків"
+
+#. module: stock_picking_invoicing
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_state_mixin__invoice_state__none
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_move__invoice_state__none
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_picking__invoice_state__none
+msgid "Not Applicable"
+msgstr "Не застосовується"
+
+#. module: stock_picking_invoicing
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_onshipping__group__partner_product
+msgid "Partner/Product"
+msgstr "Партнер/товар"
+
+#. module: stock_picking_invoicing
+#: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__sale_journal
+msgid "Sale Journal"
+msgstr "Журнал продажів"
+
+#. module: stock_picking_invoicing
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_state_mixin__invoice_state__2binvoiced
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_move__invoice_state__2binvoiced
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_picking__invoice_state__2binvoiced
+msgid "To Be Invoiced"
+msgstr "До виставлення рахунку"
+
+#. module: stock_picking_invoicing
+#: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_form
+msgid "True"
+msgstr "Істина"
+
+#. module: stock_picking_invoicing
+#: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_stock_invoice_onshipping
+msgid "or"
+msgstr "або"

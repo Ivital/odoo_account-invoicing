@@ -37,3 +37,33 @@ msgstr "Критерії групування рахунків"
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__name
 msgid "Name"
 msgstr "Назва"
+
+#. module: sale_order_invoicing_grouping_criteria
+#: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_res_company__default_sale_invoicing_grouping_criteria_id
+#: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_res_config_settings__res_default_sale_invoicing_grouping_criteria_id
+msgid "Default Sales Invoicing Grouping Criteria"
+msgstr "Типові критерії групування рахунків продажу"
+
+#. module: sale_order_invoicing_grouping_criteria
+#: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__field_ids
+msgid "Grouping Fields"
+msgstr "Поля групування"
+
+#. module: sale_order_invoicing_grouping_criteria
+#: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_order_invoicing_grouping_criteria
+#: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sale_order_invoicing_grouping_criteria
+#: model:ir.actions.act_window,name:sale_order_invoicing_grouping_criteria.action_sale_invoice_grouping_criteria
+#: model:ir.model,name:sale_order_invoicing_grouping_criteria.model_sale_invoicing_grouping_criteria
+#: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_res_partner__sale_invoicing_grouping_criteria_id
+#: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_res_users__sale_invoicing_grouping_criteria_id
+#: model_terms:ir.ui.view,arch_db:sale_order_invoicing_grouping_criteria.view_partner_property_form
+msgid "Sales Invoicing Grouping Criteria"
+msgstr "Критерії групування рахунків продажу"
