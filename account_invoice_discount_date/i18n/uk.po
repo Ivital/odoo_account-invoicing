@@ -25,3 +25,13 @@ msgstr "Термін оплати"
 #: model_terms:ir.ui.view,arch_db:account_invoice_discount_date.view_account_move_line_filter
 msgid "Discount Date"
 msgstr "Дата знижки"
+
+#. module: account_invoice_discount_date
+#: model:ir.model.fields,help:account_invoice_discount_date.field_account_bank_statement_line__discount_date
+#: model:ir.model.fields,help:account_invoice_discount_date.field_account_move__discount_date
+msgid ""
+"Last date at which the discounted amount must be paid in order for the Early"
+" Payment Discount to be granted"
+msgstr ""
+"Остання дата, до якої має бути сплачена сума зі знижкою, щоб отримати знижку"
+" за ранню оплату"

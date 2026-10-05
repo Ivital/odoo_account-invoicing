@@ -225,3 +225,26 @@ msgstr "Показувати журнал продажів"
 #: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_return_picking__invoice_state__2binvoiced
 msgid "To be refunded/invoiced"
 msgstr "До повернення/виставлення рахунка"
+
+#. module: stock_picking_invoicing
+#: model:ir.model.fields,help:stock_picking_invoicing.field_stock_invoice_onshipping__group
+msgid ""
+"Group pickings/moves to create invoice(s):\n"
+"Picking: One invoice per picking;\n"
+"Partner: One invoice for each picking's partner;\n"
+"Partner/Product: One invoice per picking's partner and group product into a single invoice line."
+msgstr ""
+"Групувати складські операції/переміщення для створення рахунків:\n"
+"Складська операція: один рахунок на кожну складську операцію;\n"
+"Партнер: один рахунок для партнера кожної складської операції;\n"
+"Партнер/Товар: один рахунок на партнера складської операції, а товари групуються в один рядок рахунку."
+
+#. module: stock_picking_invoicing
+#: model:ir.model,name:stock_picking_invoicing.model_stock_invoice_onshipping
+msgid "Stock Invoice Onshipping"
+msgstr "Рахунок за складом під час відвантаження"
+
+#. module: stock_picking_invoicing
+#: model:ir.model,name:stock_picking_invoicing.model_stock_invoice_state_mixin
+msgid "Stock Invoice State Mixin"
+msgstr "Міксин стану рахунка складу"

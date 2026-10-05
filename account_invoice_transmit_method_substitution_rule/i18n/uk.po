@@ -73,3 +73,8 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:account_invoice_transmit_method_substitution_rule.field_transmit_method_substitution_rule__transmit_method_id
 msgid "Transmit Method"
 msgstr "Метод передавання"
+
+#. module: account_invoice_transmit_method_substitution_rule
+#: model:ir.model,name:account_invoice_transmit_method_substitution_rule.model_transmit_method_substitution_rule
+msgid "Transmit Method Substitution Rule"
+msgstr "Правило заміни способу передавання"

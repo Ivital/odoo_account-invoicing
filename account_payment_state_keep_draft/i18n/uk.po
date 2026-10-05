@@ -41,3 +41,15 @@ msgstr "Зареєструвати платіж постачальнику до 
 #: model_terms:ir.ui.view,arch_db:account_payment_state_keep_draft.res_config_settings_view_form
 msgid "Default state of the payment register when a payment is created."
 msgstr "Стан реєстрації платежу за замовчуванням при створенні платежу."
+
+#. module: account_payment_state_keep_draft
+#: model:ir.model.fields,help:account_payment_state_keep_draft.field_res_company__register_customer_payment_state
+#: model:ir.model.fields,help:account_payment_state_keep_draft.field_res_config_settings__register_customer_payment_state
+msgid "Default state for Register Payment (Inbound)"
+msgstr "Стан за замовчуванням для реєстрації платежу (вхідний)"
+
+#. module: account_payment_state_keep_draft
+#: model:ir.model.fields,help:account_payment_state_keep_draft.field_res_company__register_vendor_payment_state
+#: model:ir.model.fields,help:account_payment_state_keep_draft.field_res_config_settings__register_vendor_payment_state
+msgid "Default state for Register Payment (Outbound)"
+msgstr "Стан за замовчуванням для реєстрації платежу (вихідний)"

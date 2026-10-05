@@ -38,3 +38,12 @@ msgid ""
 msgstr ""
 "Якщо встановити цей прапорець, система перевірятиме унікальність номера "
 "рахунку постачальника в усій системі."
+
+#. module: account_invoice_supplier_ref_unique
+#: model:ir.model.fields,help:account_invoice_supplier_ref_unique.field_res_company__check_invoice_supplier_number
+#: model:ir.model.fields,help:account_invoice_supplier_ref_unique.field_res_config_settings__check_invoice_supplier_number
+msgid ""
+"Check this if you want to constraint the unicity for Invoice Supplier Number"
+msgstr ""
+"Позначте, якщо потрібно забезпечити унікальність номера рахунка "
+"постачальника"

@@ -477,3 +477,74 @@ msgstr "Загальна залишкова сума"
 #: model:ir.model.fields,help:account_billing.field_account_billing__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: account_billing
+#: model:ir.model,name:account_billing.model_account_billing
+msgid "Account Billing"
+msgstr "Нарахування за рахунком"
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_billing__threshold_date
+#: model:ir.model.fields,help:account_billing.field_account_billing__threshold_date_type
+msgid ""
+"All invoices with date (threshold date type) before and equal to threshold "
+"date will be listed in billing lines"
+msgstr ""
+"Усі рахунки з датою (тип порогової дати), меншою або рівною пороговій даті, "
+"буде показано в рядках нарахування"
+
+#. module: account_billing
+#: model:ir.model,name:account_billing.model_account_billing_line
+msgid "Billing Line"
+msgstr "Рядок нарахування"
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_bank_statement_line__billing_line_ids
+#: model:ir.model.fields,help:account_billing.field_account_move__billing_line_ids
+msgid "Billing lines that reference this invoice"
+msgstr "Рядки нарахування, що посилаються на цей рахунок"
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_billing__invoice_related_count
+msgid "Count invoice in billing"
+msgstr "Враховувати рахунок у нарахуванні"
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_billing__date
+msgid "Effective date for accounting entries"
+msgstr "Дата набрання чинності бухгалтерськими записами"
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_billing__company_id
+msgid ""
+"Leave this field empty if this route is shared             between all "
+"companies"
+msgstr ""
+"Залиште це поле порожнім, якщо маршрут спільний             для всіх "
+"компаній"
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_billing__name
+msgid "Number of account.billing"
+msgstr "Кількість account.billing"
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_billing__partner_id
+msgid "Partner Information"
+msgstr "Інформація про партнера"
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_bank_statement_line__billing_ids
+#: model:ir.model.fields,help:account_billing.field_account_move__billing_ids
+msgid "Relationship between invoice and billing"
+msgstr "Зв’язок між рахунком і нарахуванням"
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_billing_line__origin
+msgid "The document(s) that generated the invoice."
+msgstr "Документ(и), що створили рахунок."
+
+#. module: account_billing
+#: model:ir.model.fields,help:account_billing.field_account_billing__bill_type
+msgid "Type of invoice"
+msgstr "Тип рахунка"

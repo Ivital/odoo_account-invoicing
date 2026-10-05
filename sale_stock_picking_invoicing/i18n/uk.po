@@ -57,3 +57,15 @@ msgstr "Замовлення на продаж і переміщення зап�
 #: model_terms:ir.ui.view,arch_db:sale_stock_picking_invoicing.sale_stock_picking_invoicing_res_config_settings_form
 msgid "This default value is applied to creation of Invoice."
 msgstr "Це значення за замовчуванням застосовується при створенні рахунка."
+
+#. module: sale_stock_picking_invoicing
+#: model:ir.model.fields,help:sale_stock_picking_invoicing.field_res_company__sale_invoicing_policy
+#: model:ir.model.fields,help:sale_stock_picking_invoicing.field_res_config_settings__sale_invoicing_policy
+msgid ""
+"If set to Sale Order, keep native Odoo behaviour for creation of invoices from Sale Orders.\n"
+"If set to Stock Picking, disallow creation of Invoices from Sale Orders for the cases where Product Type are 'consu', in case of 'Service' still will be possible create from Sale Order.\n"
+"If set to Sale Order and Stock Picking, invoices can be created from both the Sale Order and the Stock Picking. The picking invoice state is synced after Sale Order invoicing, and the picking wizard caps quantities to prevent double invoicing."
+msgstr ""
+"Якщо вибрано «Замовлення на продаж», зберігається стандартна поведінка Odoo зі створення рахунків із замовлень на продаж.\n"
+"Якщо вибрано «Складське переміщення», створення рахунків із замовлень на продаж заборонено для товарів типу 'consu'; для послуг це лишається можливим.\n"
+"Якщо вибрано обидва, рахунки можна створювати з обох джерел; стан рахунка переміщення синхронізується після виставлення із замовлення, а майстер обмежує кількість, щоб уникнути подвійного виставлення."

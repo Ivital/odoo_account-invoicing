@@ -56,3 +56,19 @@ msgstr "Кількість продажу для повторного рахун
 #: model:ir.model.fields,field_description:sale_line_refund_to_invoice_qty.field_account_move_reversal__sale_qty_to_reinvoice
 msgid "This credit note will be reinvoiced"
 msgstr "Для цієї кредит-ноти буде повторно виставлено рахунок"
+
+#. module: sale_line_refund_to_invoice_qty
+#: model:ir.model.fields,help:sale_line_refund_to_invoice_qty.field_account_move_line__sale_qty_to_reinvoice
+msgid "Leave it marked if you will reinvoice the same sale order line"
+msgstr ""
+"Залиште позначеним, якщо повторно виставлятимете той самий рядок замовлення "
+"на продаж"
+
+#. module: sale_line_refund_to_invoice_qty
+#: model:ir.model.fields,help:sale_line_refund_to_invoice_qty.field_account_move_reversal__sale_qty_to_reinvoice
+msgid ""
+"Leave it marked if you will reinvoice the same sale order line (standard "
+"behaviour)"
+msgstr ""
+"Залиште позначеним, якщо повторно виставлятимете той самий рядок замовлення "
+"на продаж (типова поведінка)"

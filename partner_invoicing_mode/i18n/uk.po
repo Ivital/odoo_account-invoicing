@@ -72,3 +72,18 @@ msgstr "Стандартні параметри виставлення раху�
 #: model:ir.model.fields,help:partner_invoicing_mode.field_res_users__next_invoice_date
 msgid "This is the date at which the next invoice will be generated."
 msgstr "Дата, коли буде створено наступний рахунок."
+
+#. module: partner_invoicing_mode
+#: model:ir.model.fields,help:partner_invoicing_mode.field_res_company__invoicing_mode_standard_last_execution
+#: model:ir.model.fields,help:partner_invoicing_mode.field_res_config_settings__invoicing_mode_standard_last_execution
+msgid "Last execution of standard invoicing."
+msgstr "Останнє виконання стандартного виставлення рахунків."
+
+#. module: partner_invoicing_mode
+#: model:ir.model.fields,help:partner_invoicing_mode.field_sale_order__one_invoice_per_order
+msgid ""
+"You can check or uncheck this if you want the periodic invoicing grouping "
+"this sale order with other ones or not."
+msgstr ""
+"Позначте або зніміть позначку залежно від того, чи потрібно групувати це "
+"замовлення з іншими під час періодичного виставлення рахунків."

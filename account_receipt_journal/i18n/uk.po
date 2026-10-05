@@ -22,3 +22,12 @@ msgstr "Надходження"
 #: model:ir.model.fields,field_description:account_receipt_journal.field_account_journal__receipts
 msgid "Exclusive to Receipts"
 msgstr "Лише для надходжень"
+
+#. module: account_receipt_journal
+#: model:ir.model.fields,help:account_receipt_journal.field_account_journal__receipts
+msgid ""
+"If checked, this journal will be used by default for receipts and only can "
+"be used for receipts."
+msgstr ""
+"Якщо позначено, цей журнал типово використовуватиметься для надходжень і "
+"лише для надходжень."

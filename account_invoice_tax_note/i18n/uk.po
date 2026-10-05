@@ -17,3 +17,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_invoice_tax_note.field_account_tax_group__report_note
 msgid "Report Note"
 msgstr "Примітка до звіту"
+
+#. module: account_invoice_tax_note
+#: model:ir.model.fields,help:account_invoice_tax_note.field_account_tax_group__report_note
+msgid "Note to insert on Invoice Report if the tax group is used."
+msgstr ""
+"Примітка для вставлення у звіт рахунку, якщо використовується група "
+"податків."

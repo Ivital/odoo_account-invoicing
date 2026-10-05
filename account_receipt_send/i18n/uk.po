@@ -17,3 +17,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_receipt_send.view_move_receipt_send_form
 msgid "Send"
 msgstr "Надіслати"
+
+#. module: account_receipt_send
+#: model:mail.template,name:account_receipt_send.email_template_edi_receipt
+msgid "Receipt: Send by email"
+msgstr "Отримання: надіслати email"
+
+#. module: account_receipt_send
+#: model:mail.template,description:account_receipt_send.email_template_edi_receipt
+msgid "Sent to customers with their receipts in attachment"
+msgstr "Надсилається клієнтам разом із квитанціями у вкладенні"
+
+#. module: account_receipt_send
+#: model:mail.template,subject:account_receipt_send.email_template_edi_receipt
+msgid "{{ object.company_id.name }} Receipt (Ref {{ object.name or 'n/a' }})"
+msgstr ""
+"{{ object.company_id.name }} Квитанція (Посилання {{ object.name or 'n/a' "
+"}})"

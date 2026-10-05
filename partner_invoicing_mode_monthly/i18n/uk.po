@@ -55,3 +55,20 @@ msgstr "<span>Параметри щомісячного виставлення �
 #: model:ir.actions.server,name:partner_invoicing_mode_monthly.ir_cron_generate_monthly_invoice_ir_actions_server
 msgid "Generate Monthly Invoices"
 msgstr "Створити щомісячні рахунки"
+
+#. module: partner_invoicing_mode_monthly
+#: model:ir.model.fields,help:partner_invoicing_mode_monthly.field_res_company__invoicing_mode_monthly_day_todo
+#: model:ir.model.fields,help:partner_invoicing_mode_monthly.field_res_config_settings__res_invoicing_mode_monthly_day_todo
+msgid ""
+"Day of the month to execute the invoicing. For a number higherthan the "
+"number of days in a month, the invoicing will beexecuted on the last day of "
+"the month."
+msgstr ""
+"День місяця для виставлення рахунків. Якщо число перевищує кількість днів у "
+"місяці, виставлення буде виконано в останній день місяця."
+
+#. module: partner_invoicing_mode_monthly
+#: model:ir.model.fields,help:partner_invoicing_mode_monthly.field_res_company__invoicing_mode_monthly_last_execution
+#: model:ir.model.fields,help:partner_invoicing_mode_monthly.field_res_config_settings__res_invoicing_mode_monthly_last_execution
+msgid "Last execution of monthly invoicing."
+msgstr "Останнє виконання щомісячного виставлення рахунків."

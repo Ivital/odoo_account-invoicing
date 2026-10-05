@@ -76,3 +76,38 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:account_invoice_refund_reason.field_account_move_reversal__reason_id
 msgid "Refund Reason"
 msgstr "Причина повернення коштів"
+
+#. module: account_invoice_refund_reason
+#: model:ir.model,name:account_invoice_refund_reason.model_account_move_refund_reason
+msgid "Account Move Refund Reason"
+msgstr "Причина повернення бухгалтерського запису"
+
+#. module: account_invoice_refund_reason
+#: model:account.move.refund.reason,name:account_invoice_refund_reason.refund_reason_cancellation
+msgid "Cancellation"
+msgstr "Скасування"
+
+#. module: account_invoice_refund_reason
+#: model:account.move.refund.reason,name:account_invoice_refund_reason.refund_reason_agreement
+msgid "Commercial and/or Collection Agreement"
+msgstr "Комерційна та/або колекторська угода"
+
+#. module: account_invoice_refund_reason
+#: model:account.move.refund.reason,name:account_invoice_refund_reason.refund_reason_correction
+msgid "Data Correction"
+msgstr "Виправлення даних"
+
+#. module: account_invoice_refund_reason
+#: model:account.move.refund.reason,name:account_invoice_refund_reason.refund_reason_noref
+msgid "Invoice without reference"
+msgstr "Рахунок без посилання"
+
+#. module: account_invoice_refund_reason
+#: model:account.move.refund.reason,name:account_invoice_refund_reason.refund_reason_error
+msgid "Lease and/or Minimum Charge Error"
+msgstr "Помилка оренди та/або мінімальної плати"
+
+#. module: account_invoice_refund_reason
+#: model:account.move.refund.reason,name:account_invoice_refund_reason.refund_reason_difference
+msgid "Price Difference"
+msgstr "Різниця ціни"

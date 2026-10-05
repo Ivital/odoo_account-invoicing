@@ -43,3 +43,9 @@ msgstr "Уникати вибору кількох податків ПДВ."
 #: model:ir.model.fields,field_description:account_tax_one_vat.field_res_config_settings__account_tax_one_vat
 msgid "One VAT tax only"
 msgstr "Лише один податок ПДВ"
+
+#. module: account_tax_one_vat
+#: model:ir.model,name:account_tax_one_vat.model_one_vat_mixin
+msgid "Abstract the methods needed to ensure only one VAT tax is selected."
+msgstr ""
+"Абстрагує методи, потрібні для гарантії вибору лише одного податку ПДВ."

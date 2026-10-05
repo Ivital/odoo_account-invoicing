@@ -69,3 +69,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: account_invoice_check_picking_date
+#: model:ir.model,name:account_invoice_check_picking_date.model_invoice_picking_date_check_wiz
+msgid "Invoice and picking date check wizard"
+msgstr "Майстер перевірки дат рахунка та переміщення"

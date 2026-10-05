@@ -187,3 +187,40 @@ msgstr "Є журналом компенсаційного авансу"
 #: model_terms:ir.ui.view,arch_db:account_invoice_advance_compensation.view_account_journal_form_inherit
 msgid "Mark this journal for advance payment compensation"
 msgstr "Позначити цей журнал для компенсації авансового платежу"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,help:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__available_advance_line_ids
+msgid "Available advance lines for compensation"
+msgstr "Доступні рядки авансів для компенсації"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,help:account_invoice_advance_compensation.field_account_journal__is_advance_journal
+msgid "Check this box if this journal is for compensation advances"
+msgstr "Позначте, якщо цей журнал використовується для компенсації авансів"
+
+#. module: account_invoice_advance_compensation
+#. odoo-python
+#: code:addons/account_invoice_advance_compensation/models/account_move_line.py:0
+msgid "Date: %s"
+msgstr "Дата: %s"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,help:account_invoice_advance_compensation.field_account_bank_statement_line__advance_invoice
+#: model:ir.model.fields,help:account_invoice_advance_compensation.field_account_move__advance_invoice
+msgid "Indicates whether this invoice has eligible advance payments available"
+msgstr "Вказує, чи має цей рахунок-фактура доступні придатні авансові платежі"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model,name:account_invoice_advance_compensation.model_account_invoice_advance_compensation_wizard
+msgid "Invoice Advance Compensation Wizard"
+msgstr "Майстер компенсації авансу рахунка"
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,help:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__move_id
+msgid "Invoice to be compensated with an advance."
+msgstr "Рахунок, який потрібно компенсувати авансом."
+
+#. module: account_invoice_advance_compensation
+#: model:ir.model.fields,help:account_invoice_advance_compensation.field_account_invoice_advance_compensation_wizard__currency_id
+msgid "The currency of the compensation"
+msgstr "Валюта компенсації"

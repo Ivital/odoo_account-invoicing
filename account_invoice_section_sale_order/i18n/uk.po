@@ -72,3 +72,14 @@ msgstr ""
 "Залиште порожнім, щоб використовувати типове значення. Можна використовувати"
 " вираз Python зі змінними 'object' (представляє замовлення на продаж) і "
 "'time'."
+
+#. module: account_invoice_section_sale_order
+#: model:res.groups,name:account_invoice_section_sale_order.group_sale_order_invoice_section_name
+msgid "Allow customization of invoice section name from sale order"
+msgstr "Дозволити налаштування назви розділу рахунку із замовлення на продаж"
+
+#. module: account_invoice_section_sale_order
+#: model:ir.model.fields,help:account_invoice_section_sale_order.field_res_company__invoice_section_grouping
+#: model:ir.model.fields,help:account_invoice_section_sale_order.field_res_config_settings__invoice_section_grouping
+msgid "Defines object used to group invoice lines"
+msgstr "Визначає об’єкт, що використовується для групування рядків рахунка"

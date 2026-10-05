@@ -47,6 +47,7 @@ msgstr "Початковий рядок рахунку"
 #: model:ir.model.fields,help:account_invoice_refund_link.field_account_move_line__origin_line_id
 msgid "Original invoice line to which this refund invoice line is referred to"
 msgstr ""
+"Початковий рядок рахунку, до якого відноситься цей рядок рахунку повернення"
 
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,field_description:account_invoice_refund_link.field_account_bank_statement_line__refund_invoice_ids
@@ -63,7 +64,7 @@ msgstr "Рядки рахунку повернення"
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,help:account_invoice_refund_link.field_account_move_line__refund_line_ids
 msgid "Refund invoice lines created from this invoice line"
-msgstr ""
+msgstr "Рядки рахунка повернення, створені з цього рядка рахунка"
 
 #. module: account_invoice_refund_link
 #: model_terms:ir.ui.view,arch_db:account_invoice_refund_link.view_customer_account_invoice_add_refunds_details_form

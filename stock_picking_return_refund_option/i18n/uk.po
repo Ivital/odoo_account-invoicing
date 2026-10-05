@@ -33,3 +33,13 @@ msgstr "Без повернення коштів"
 #: model_terms:ir.ui.view,arch_db:stock_picking_return_refund_option.view_picking_form
 msgid "Refund Options"
 msgstr "Параметри повернення коштів"
+
+#. module: stock_picking_return_refund_option
+#: model:ir.model.fields,help:stock_picking_return_refund_option.field_stock_picking__to_refund_lines
+msgid ""
+"This field allow modify 'to_refund' field value in all stock moves from this picking after it has been confirmed.to_refund: set all stock moves to True value and recompute delivered quantities in sale order.\n"
+"no_refund: set all stock moves to False value and recompute delivered quantities in sale/purchase order."
+msgstr ""
+"Це поле дає змогу змінити значення поля 'to_refund' у всіх складських переміщеннях цієї операції після її підтвердження.\n"
+"to_refund: встановити True для всіх складських переміщень і перерахувати доставлену кількість у замовленні на продаж.\n"
+"no_refund: встановити False для всіх складських переміщень і перерахувати доставлену кількість у замовленні на продаж/закупівлю."

@@ -25,3 +25,8 @@ msgstr "Термін оплати"
 #: model:ir.model.fields,field_description:account_invoice_date_due.field_account_move__invoice_date_due_payment_term
 msgid "Due Date Payment Term"
 msgstr "Строк оплати за умовою платежу"
+
+#. module: account_invoice_date_due
+#: model:res.groups,name:account_invoice_date_due.allow_to_change_due_date
+msgid "Allow to change due date"
+msgstr "Дозволити зміну терміну оплати"

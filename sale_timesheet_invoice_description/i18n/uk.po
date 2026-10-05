@@ -62,7 +62,7 @@ msgstr "Рядок рахунка-фактури"
 #. module: sale_timesheet_invoice_description
 #: model:ir.model.fields,help:sale_timesheet_invoice_description.field_account_analytic_line__timesheet_invoice_line_id
 msgid "Invoice line created from the timesheet"
-msgstr ""
+msgstr "Рядок рахунка, створений із табеля"
 
 #. module: sale_timesheet_invoice_description
 #: model:ir.model,name:sale_timesheet_invoice_description.model_account_move
